@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OpenMC Workshops.md",
+            "file": "NURBS Tallies.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenMC Workshops.md",
+                "file": "NURBS Tallies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +90,7 @@
   },
   "active": "bcc71fa55e381265",
   "lastOpenFiles": [
+    "NURBS Tallies.md",
     "OpenMC Workshops.md",
     "OpenMC SDR Meetings.md",
     "OpenMC Features.md",
@@ -98,7 +99,6 @@
     "Aurora Build Notes.md",
     "PyARC.md",
     "MCNP6 Unstructured Mesh.md",
-    "TODO.md",
-    "NURBS Tallies.md"
+    "TODO.md"
   ]
 }
