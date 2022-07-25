@@ -1,4 +1,4 @@
 
 #openmc
-- FLF energy function filter addition
-- TMS Training
+- [ ] FLF energy function filter addition
+- [ ] TMS Training
