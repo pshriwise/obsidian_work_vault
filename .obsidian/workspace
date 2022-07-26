@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "London Trip Work Tasks.md",
+            "file": "OpenMC SDR Meetings.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "London Trip Work Tasks.md",
+                "file": "OpenMC SDR Meetings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +90,7 @@
   },
   "active": "bcc71fa55e381265",
   "lastOpenFiles": [
+    "London Trip Work Tasks.md",
     "OpenMC SDR Meetings.md",
     "NURBS Tallies.md",
     "OpenMC Workshops.md",
@@ -98,7 +99,6 @@
     "libMesh Notes.md",
     "Aurora Build Notes.md",
     "PyARC.md",
-    "MCNP6 Unstructured Mesh.md",
-    "TODO.md"
+    "MCNP6 Unstructured Mesh.md"
   ]
 }
