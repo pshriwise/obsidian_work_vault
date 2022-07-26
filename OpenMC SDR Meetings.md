@@ -15,5 +15,3 @@
 	  - FNG model
 		  - cell-based 
 		  - mesh-based
-- Toy model that demos
-	- 
