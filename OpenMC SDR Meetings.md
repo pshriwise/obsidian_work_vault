@@ -51,3 +51,26 @@ for i in range(n_iterations):
     openmc.lib.reset()
 openmc.lib.finalize()
 ```
+
+
+## The `openmc_update_weight_windows` function
+
+Proposed signature:
+
+```C
+/**
+Update the weight windows using data from the specified tally. The tally is required to have a MeshFilter applied. An EnergyFilter may also optionally be present.
+
+\param tally_id ID of the tally to extract information from
+\param ww_id ID of the set of weight windows to update. If null, a new weight winow class will be created.
+\param score The score on the tally to use
+\param value One of ('mean', 'rel_err'). Used to specify the type of tally information used when computing weight windows.
+\param method The method used for computing weight windows (TBD)
+*/
+openmc_update_weight_windows(int32_t tally_id,
+							 int32_t* ww_id,
+							 const char* score,
+							 const char* value,
+							 const char* method);
+```
+
