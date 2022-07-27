@@ -40,7 +40,7 @@ for (int i = 0; i < n_iterations; i++) {
 openmc_finalize();
 ```
 
-In Python:
+In Python (`openmc-ww-gen`):
 
 ```Python
 openmc.lib.init()
@@ -69,7 +69,7 @@ openmc_update_weight_windows(int32_t tally_id,
 							 int32_t* ww_id,
 							 const char* score = "flux",
 							 const char* value = "mean",
-							 const char* method = );
+							 const char* method);
 ```
 
 Add `openmc_weight_window_init(int32_t mesh_id, double* e_bounds)`
