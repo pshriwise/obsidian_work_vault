@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "workshop",
+                "query": "tag:#openmc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,10 +90,10 @@
   },
   "active": "bcc71fa55e381265",
   "lastOpenFiles": [
-    "OpenMC Workshops.md",
-    "OpenMC SDR Meetings.md",
-    "London Trip Work Tasks.md",
     "NURBS Tallies.md",
+    "London Trip Work Tasks.md",
+    "OpenMC SDR Meetings.md",
+    "OpenMC Workshops.md",
     "OpenMC Features.md",
     "Workbench in Docker.md",
     "libMesh Notes.md",

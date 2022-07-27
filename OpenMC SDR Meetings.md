@@ -52,7 +52,6 @@ for i in range(n_iterations):
 openmc.lib.finalize()
 ```
 
-
 ## The `openmc_update_weight_windows` function
 
 Proposed signature:
@@ -73,4 +72,3 @@ openmc_update_weight_windows(int32_t tally_id,
 							 const char* value,
 							 const char* method);
 ```
-
