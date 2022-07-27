@@ -1,4 +1,4 @@
-[]()#openmc #nurbs
+#openmc #nurbs
 ## Background and Motivation
 See notes in [[Functional Expansion Tally Notes]]
 
