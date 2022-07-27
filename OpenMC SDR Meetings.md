@@ -32,7 +32,6 @@ In C:
 
 ```c
 openmc_init();
-
 for (int i = 0; i < n_iterations; i++) {
   openmc_run();
   openmc_update_weight_windows(...);
@@ -47,7 +46,7 @@ In Python:
 openmc.lib.init()
 for i in range(n_iterations):
     openmc.lib.run()
-    openmc.lib.update_weight_windows();
+    openmc.lib.update_weight_windows()
     openmc.lib.reset()
 openmc.lib.finalize()
 ```
@@ -68,7 +67,11 @@ Update the weight windows using data from the specified tally. The tally is requ
 */
 openmc_update_weight_windows(int32_t tally_id,
 							 int32_t* ww_id,
-							 const char* score,
-							 const char* value,
-							 const char* method);
+							 const char* score = "flux",
+							 const char* value = "mean",
+							 const char* method = );
 ```
+
+Add `openmc_weight_window_init(int32_t mesh_id, double* e_bounds)`
+
+`WeightWindows::WeightWindows(int32_t mesh_id, std::vector<double> e_bounds) {...}`
