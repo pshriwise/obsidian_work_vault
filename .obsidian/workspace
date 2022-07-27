@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "London Trip Work Tasks.md",
+            "file": "OpenMC SDR Meetings.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "workshop",
+                "query": "tag:#openmc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,7 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 196.5
   },
   "right": {
     "id": "ae966c17e19ca44a",
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "London Trip Work Tasks.md",
+                "file": "OpenMC SDR Meetings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,15 +90,15 @@
   },
   "active": "bcc71fa55e381265",
   "lastOpenFiles": [
-    "OpenMC SDR Meetings.md",
-    "London Trip Work Tasks.md",
-    "NURBS Tallies.md",
     "OpenMC Workshops.md",
     "OpenMC Features.md",
-    "Workbench in Docker.md",
     "libMesh Notes.md",
+    "conflict-files-obsidian-git.md",
+    "OpenMC SDR Meetings.md",
+    "Workbench in Docker.md",
     "Aurora Build Notes.md",
     "PyARC.md",
-    "MCNP6 Unstructured Mesh.md"
+    "MCNP6 Unstructured Mesh.md",
+    "TODO.md"
   ]
 }
