@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#openmc",
+                "query": "tag:#fusion",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,7 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 196.5
   },
   "right": {
     "id": "ae966c17e19ca44a",
@@ -90,15 +90,15 @@
   },
   "active": "bcc71fa55e381265",
   "lastOpenFiles": [
-    "NURBS Tallies.md",
-    "London Trip Work Tasks.md",
+    "Aurora Build Notes.md",
     "OpenMC SDR Meetings.md",
+    "libMesh Notes.md",
     "OpenMC Workshops.md",
     "OpenMC Features.md",
+    "conflict-files-obsidian-git.md",
     "Workbench in Docker.md",
-    "libMesh Notes.md",
-    "Aurora Build Notes.md",
     "PyARC.md",
-    "MCNP6 Unstructured Mesh.md"
+    "MCNP6 Unstructured Mesh.md",
+    "TODO.md"
   ]
 }

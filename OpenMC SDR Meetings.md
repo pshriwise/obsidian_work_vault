@@ -75,3 +75,28 @@ openmc_update_weight_windows(int32_t tally_id,
 Add `openmc_weight_window_init(int32_t mesh_id, double* e_bounds)`
 
 `WeightWindows::WeightWindows(int32_t mesh_id, std::vector<double> e_bounds) {...}`
+
+
+Could break this up into a set of smaller functions:
+
+```c
+openmc_generate_weight_windows(int32_t tally_id, 
+							   const char* score = "flux",
+							   const char* value = "mean",
+							   const char* method = "ratio")
+```
+
+```c
+openmc_set_weight_windows(int32_t ww_id,
+						  const double* lower_bounds,
+						  const double* upper_bounds)
+```
+
+And on the C++ side (with r-value refs to avoid copying large data arrays)
+```c++
+WeightWindows::set_weight_windows(const std::vector<double>&& lower_bounds,
+								  const std::vector<double>&& upper_bounds) {
+	lower_ww_ = std::move(lower_bounds);
+	upper_ww_ = std::move(upper_bounds);
+}
+```
