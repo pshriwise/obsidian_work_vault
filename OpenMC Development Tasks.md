@@ -2,7 +2,7 @@
 
 Development Task List
 - [ ] Refactor interpolation code
-- [ ] Add remaining interpolation schemes to `EnergyFunctionFilter`
+- [ ] Add remaining interpol ation schemes to `EnergyFunctionFilter`
 
 EnergyFunctionFilter `log-log` PR draft:
 > This PR adds the log-log interpolation scheme to the  `EnergyFunctionFilter` class to support commonly used dose rate evaluations 
