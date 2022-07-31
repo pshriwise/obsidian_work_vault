@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OpenMC SDR Meetings.md",
+            "file": "OpenMC Development Tasks.md",
             "mode": "source",
             "source": false
           }
@@ -40,10 +40,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#fusion",
+                "query": "tag:openmc",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenMC SDR Meetings.md",
+                "file": "OpenMC Development Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,10 +88,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bcc71fa55e381265",
+  "active": "0c63ce81bbd6ca70",
   "lastOpenFiles": [
-    "Aurora Build Notes.md",
     "OpenMC SDR Meetings.md",
+    "Aurora Build Notes.md",
     "libMesh Notes.md",
     "OpenMC Workshops.md",
     "OpenMC Features.md",
