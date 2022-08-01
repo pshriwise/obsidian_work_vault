@@ -6,6 +6,7 @@
 Helen:
   - Updates to MOOSE
   - Should be releasing a newly tagged version of Aurora soon
+  - DAGMC model has to be in `cm` for Aurora simulations
 April/Aya:
   - Updates to DAGMC pincell model for Aurora
   - OpenMC always as to be sub-app in Aurora
@@ -24,3 +25,4 @@ April/Aya:
 
 My action items:
   - [ ] Rebuild Aurora and Cardinal with the Petsc hdf5 installation
+  - [ ] Cardinal PR review
