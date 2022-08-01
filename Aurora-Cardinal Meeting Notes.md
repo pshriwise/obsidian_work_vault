@@ -26,3 +26,6 @@ April/Aya:
 My action items:
   - [ ] Rebuild Aurora and Cardinal with the Petsc hdf5 installation
   - [ ] Cardinal PR review
+  - [ ] Figure out how to share and collab on notes
+
+### 2022-08-
