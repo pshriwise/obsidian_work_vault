@@ -28,4 +28,4 @@ My action items:
   - [ ] Cardinal PR review
   - [ ] Figure out how to share and collab on notes
 
-### 2022-08-
+### 2022-08-15
