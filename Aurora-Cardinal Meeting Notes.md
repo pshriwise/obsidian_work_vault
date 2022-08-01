@@ -17,7 +17,10 @@ April/Aya:
 	  - Expects one-to-one mapping of material regions in OpenMC/MOOSE model
 	  - Current issue:
 		  - 
-  - MHD model update
 	- Longer-term design questions
 		- How to suporrt more general transfers?
 		- 
+	- MHD model update
+
+My action items:
+  - [ ] Rebuild Aurora and Cardinal with the Petsc hdf5 installation
