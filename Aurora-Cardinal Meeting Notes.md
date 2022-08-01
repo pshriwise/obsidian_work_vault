@@ -15,7 +15,9 @@ April/Aya:
 	  - List of assumptions made in coupling process
 	  - Exercise in documenting assumptions
 	  - Expects one-to-one mapping of material regions in OpenMC/MOOSE model
-	  - Some naming assumptions in place??
-		  - Can be named differently: need to specify 
+	  - Current issue:
+		  - 
   - MHD model update
-	  - 
+	- Longer-term design questions
+		- How to suporrt more general transfers?
+		- 
