@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OpenMC Development Tasks.md",
+            "file": "Aurora-Cardinal Meeting Notes.md",
             "mode": "source",
             "source": false
           }
@@ -40,10 +40,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:openmc",
+                "query": "tag:#openmc",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -54,7 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 196.5
+    "width": 300
   },
   "right": {
     "id": "ae966c17e19ca44a",
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenMC Development Tasks.md",
+                "file": "Aurora-Cardinal Meeting Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,17 +88,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0c63ce81bbd6ca70",
+  "active": "bcc71fa55e381265",
   "lastOpenFiles": [
-    "OpenMC SDR Meetings.md",
     "Aurora Build Notes.md",
-    "libMesh Notes.md",
+    "Aurora-Cardinal Meeting Notes.md",
+    "OpenMC SDR Meetings.md",
+    "NURBS Tallies.md",
+    "London Trip Work Tasks.md",
     "OpenMC Workshops.md",
     "OpenMC Features.md",
-    "conflict-files-obsidian-git.md",
     "Workbench in Docker.md",
-    "PyARC.md",
-    "MCNP6 Unstructured Mesh.md",
-    "TODO.md"
+    "libMesh Notes.md",
+    "PyARC.md"
   ]
 }
