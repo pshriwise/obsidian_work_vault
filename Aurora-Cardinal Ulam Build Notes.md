@@ -42,5 +42,8 @@ $ git clone https://github.com/aurora-multiphysics/aurora
 $ mkdir opt
 ```
 9. Build Aurora dependencies, checking that HDF5 is found in the right location for MOAB and OpenMC
-I did have 
+10. I did have to set my `LD_LIBRARY_PATH` so that the MOAB libraries could find the HDF5 libraries, but that shouldn't be necessary. I'm honestly not sure what's going on there.
+```shell
+$ export LD_LIBRARY_PATH=$HDF5_ROOT/lib:$LD_LIBRARY_PATH
+```
 11. 
