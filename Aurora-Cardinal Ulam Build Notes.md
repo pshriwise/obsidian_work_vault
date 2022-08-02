@@ -35,6 +35,11 @@ $ ./run_tests
 7. Clone Aurora
 ```shell
 $ cd ../
-$ git clone https://github.com/aurora-multiphysics-aurora
+$ git clone https://github.com/aurora-multiphysics/aurora
 ```
-8. 
+8. Create installation directory for dependencies
+```shell
+$ mkdir opt
+```
+9. Build Aurora dependencies, checking that HDF5 is found in the right location for MOAB and OpenMC
+10. 
