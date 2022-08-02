@@ -53,3 +53,6 @@ $ export PATH=$HOME/aurora_build/opt/bin/:$PATH
 ```
 13. Skip step for building MOOSE
 14. Build Aurora
+
+Something I got burned by: Make sure thre isn't a trailing `/` in your `PATH` variable for the dependency installations.
+
