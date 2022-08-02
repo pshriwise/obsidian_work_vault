@@ -42,4 +42,5 @@ $ git clone https://github.com/aurora-multiphysics/aurora
 $ mkdir opt
 ```
 9. Build Aurora dependencies, checking that HDF5 is found in the right location for MOAB and OpenMC
-10. 
+I did have 
+11. 
