@@ -1,4 +1,4 @@
-#mesh #unstructured-mesh 
+#mesh #unstructured-mesh #ray-tracing 
 
 ## Installation Notes
   - Need to use `--enable-hdf5` flag to enable HDF5
@@ -7,3 +7,7 @@
 ## API Notes
   - Use `elem.node_id(i)` for connectivity instead of `elem.node_ref(i).id()`
 	  - It seems some functions/methods will return temporary copies of objects and others will refer to global objects.
+
+
+### Ray Tracing w/ the Octree
+

@@ -5,8 +5,6 @@
 - [ ] Add remaining interpolation schemes to `EnergyFunctionFilter`
 
 
-
-
 ### Random Notes
 
 EnergyFunctionFilter `log-log` PR draft:
