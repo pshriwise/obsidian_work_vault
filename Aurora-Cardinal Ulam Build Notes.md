@@ -26,7 +26,8 @@ $ ./scripts/update_and_build_libmesh.sh
 ```
 6. Build Cardinal
 ```shell
-$ export NEKRS_HOME=/home/pshriwise/aurora_build/cardinal/install
+$ export MOOSE_DIR=$HOME/aurora_build/cardinal/contrib/moose
+$ export NEKRS_HOME=$HOME/aurora_build/cardinal/install
 $ cd ../../
 $ make -j10
 ```
