@@ -26,6 +26,13 @@ $ ./scripts/update_and_build_libmesh.sh
 ```
 6. Build Cardinal
 ```shell
+$ export NEKRS_HOME=/home/pshriwise/aurora_build/cardinal/install
 $ cd ../../
 $ make -j10
 ```
+7. Clone Aurora
+```shell
+$ cd ../
+$ git clone https://github.com/aurora-multiphysics-aurora
+```
+8. 
