@@ -4,19 +4,20 @@ $ git clone https://github.com/neams-th-coe/cardinal
 $ cd cardinal
 $ ./scripts/get-dependencies.sh
 ```
-3. Set compiler environment variables
+2. Set compiler environment variables
 ```shell
 export CC=mpicc
 export CXX=mpicxx
 export FC=mpif90
 export MPICH_FC=gfortran
 ```
-  - `CC=mpicc`
-  - `CXX=mpicxx`
-  - `FC=mpif90`
-5. Build Petsc inside Cardinal
+3. Build Petsc inside Cardinal
 ```shell
-$ cd cardinal
-$ 
+$ cd contrib/moose
+$ ./scripts/update_and_build_petsc.sh
 ```
-6. 
+4. Set the `HDF5_ROOT` env var
+```shell
+$ export HDF5_ROOT=$HOME/build_aurora/cardinal/contrib/moose/
+```
+5. 
