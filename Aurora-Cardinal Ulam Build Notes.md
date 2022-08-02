@@ -18,6 +18,14 @@ $ ./scripts/update_and_build_petsc.sh
 ```
 4. Set the `HDF5_ROOT` env var
 ```shell
-$ export HDF5_ROOT=$HOME/build_aurora/cardinal/contrib/moose/
+$ export HDF5_ROOT=$HOME/aurora_build/cardinal/contrib/moose/petsc/arch-moose
 ```
-5. 
+5. Build libmesh
+```shell
+$ ./scripts/update_and_build_libmesh.sh
+```
+6. Build Cardinal
+```shell
+$ cd ../../
+$ make -j10
+```
