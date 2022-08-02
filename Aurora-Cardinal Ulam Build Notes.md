@@ -30,6 +30,7 @@ $ export MOOSE_DIR=$HOME/aurora_build/cardinal/contrib/moose
 $ export NEKRS_HOME=$HOME/aurora_build/cardinal/install
 $ cd ../../
 $ make -j10
+$ ./run_tests
 ```
 7. Clone Aurora
 ```shell
