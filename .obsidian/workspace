@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Nate Tasks.md",
+            "file": "Aurora-Cardinal Ulam Build Notes.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nate Tasks.md",
+                "file": "Aurora-Cardinal Ulam Build Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +90,7 @@
   },
   "active": "f1dd5c51dea5a12a",
   "lastOpenFiles": [
+    "Nate Tasks.md",
     "Aurora-Cardinal Ulam Build Notes.md",
     "OpenMC Development Tasks.md",
     "libMesh Notes.md",
@@ -98,7 +99,6 @@
     "OpenMC SDR Meetings.md",
     "Aurora-Cardinal Meeting Notes.md",
     "Aurora Build Notes.md",
-    "NURBS Tallies.md",
-    "London Trip Work Tasks.md"
+    "NURBS Tallies.md"
   ]
 }
