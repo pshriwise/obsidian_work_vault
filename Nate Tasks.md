@@ -2,4 +2,4 @@
 - [x] Commit to VKRT
 - [ ] Message HR about 6 mo. extension
 - [ ] KNN paper review
-- [ ] Message cosmology crew about point cloud nearest neighbor
+- [x] Message cosmology crew about point cloud nearest neighbor
