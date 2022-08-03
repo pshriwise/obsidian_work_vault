@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#openmc weight",
+                "query": "tasks",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,15 +90,15 @@
   },
   "active": "f1dd5c51dea5a12a",
   "lastOpenFiles": [
-    "Aurora-Cardinal Ulam Build Notes.md",
+    "Madison Work Tasks.md",
     "Nate Tasks.md",
+    "Aurora-Cardinal Ulam Build Notes.md",
     "OpenMC Development Tasks.md",
     "libMesh Notes.md",
     "MOOSE Ray Tracing Notes.md",
     "Untitled.md",
     "OpenMC SDR Meetings.md",
     "Aurora-Cardinal Meeting Notes.md",
-    "Aurora Build Notes.md",
-    "NURBS Tallies.md"
+    "Aurora Build Notes.md"
   ]
 }
