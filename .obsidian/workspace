@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "UTK Intro Meeting 2022-08-03.md",
+            "file": "Aurora-Cardinal Meeting Notes.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UTK Intro Meeting 2022-08-03.md",
+                "file": "Aurora-Cardinal Meeting Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +90,7 @@
   },
   "active": "f1dd5c51dea5a12a",
   "lastOpenFiles": [
+    "Untitled 1.md",
     "Madison Work Tasks.md",
     "OpenMC Development Tasks.md",
     "Nate Tasks.md",
@@ -98,7 +99,6 @@
     "MOOSE Ray Tracing Notes.md",
     "Untitled.md",
     "OpenMC SDR Meetings.md",
-    "Aurora-Cardinal Meeting Notes.md",
-    "Aurora Build Notes.md"
+    "Aurora-Cardinal Meeting Notes.md"
   ]
 }
