@@ -27,15 +27,27 @@ double val2 = yb0 + f * (yb1 - yb0);
 So a function that performs the entire interpolation isn't paticularly useful as we'd be recomputing this interpolation factor many times. I think I'd like to try this with some kind of templated structure that is designed to be temporary.
 
 ```cpp
-struct Interpolator<T> {
+struct FixedInterpolator<T> {
 
-	// 
-	Interpolator(xs, x);
+	// computes interpolation factor(s) based on domain array and value
+	FixedInterpolator(xs, x);
 
+	// applies interpolation based on data that is expected to correspond
+	// to the domain array
+	double operator ()(ys);
 	
-	double interp
+	double interpolation_factor_;
+};
+
+struct Interpolator<T> {
+	In
 }
 ```
+
+To keep the lines of code minimal for one-off interpolations, there might be two `struct`'s: `Interpolator` and `FixedInterpolator`.
+
+  - `Interpolator` will perform a full interpolation based on the scheme specified
+  - `FixedInterpolator` will perform a partial interpolation and hang around to be used for subsequent interpolations
 
 > This PR adds the log-log interpolation scheme to the  `EnergyFunctionFilter` class to support commonly used dose rate evaluations 
   Closes #1671.
