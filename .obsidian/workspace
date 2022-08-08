@@ -70,7 +70,10 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "OpenMC Development Tasks.md",
+=======
+>>>>>>> vault backup: 2022-08-08 15:40:52
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,10 +93,16 @@
   },
   "active": "f1dd5c51dea5a12a",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "OpenMC SDR Meetings.md",
     "conflict-files-obsidian-git.md",
     "Aurora-Cardinal Meeting Notes.md",
     "Untitled 1.md",
+=======
+    "conflict-files-obsidian-git.md",
+    "Student Management.md",
+    "UTK Intro Meeting 2022-08-03.md",
+>>>>>>> vault backup: 2022-08-08 15:40:52
     "Madison Work Tasks.md",
     "OpenMC Development Tasks.md",
     "Nate Tasks.md",
