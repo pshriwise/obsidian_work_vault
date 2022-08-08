@@ -5,9 +5,10 @@
 - [ ] Add remaining interpolation schemes to `EnergyFunctionFilter`
 
 
-### Random Notes
+### `EnergyFunctionFiler` Interpolation
 
-EnergyFunctionFilter `log-log` PR draft:
+### Interpolation Refactor
+Interpolation is 
 > This PR adds the log-log interpolation scheme to the  `EnergyFunctionFilter` class to support commonly used dose rate evaluations 
   Closes #1671.
   This PR was sponsored by our friends at First Light Fusion 💯 
