@@ -100,3 +100,10 @@ WeightWindows::set_weight_windows(const std::vector<double>&& lower_bounds,
 	upper_ww_ = std::move(upper_bounds);
 }
 ```
+
+
+### Discussion on control of when particles should check for an updated WW
+  - collisions/virtual collisions
+  - surface crossings
+  - mesh crossings
+  - control splitting vs. rouletting?

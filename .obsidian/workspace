@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Aurora-Cardinal Meeting Notes.md",
+            "file": "OpenMC SDR Meetings.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Aurora-Cardinal Meeting Notes.md",
+                "file": "OpenMC SDR Meetings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +90,7 @@
   },
   "active": "f1dd5c51dea5a12a",
   "lastOpenFiles": [
+    "Aurora-Cardinal Meeting Notes.md",
     "Untitled 1.md",
     "Madison Work Tasks.md",
     "OpenMC Development Tasks.md",
@@ -98,7 +99,6 @@
     "libMesh Notes.md",
     "MOOSE Ray Tracing Notes.md",
     "Untitled.md",
-    "OpenMC SDR Meetings.md",
-    "Aurora-Cardinal Meeting Notes.md"
+    "OpenMC SDR Meetings.md"
   ]
 }
