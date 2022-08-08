@@ -28,4 +28,10 @@ My action items:
   - [ ] Cardinal PR review
   - [ ] Figure out how to share and collab on notes
 
+Meeting w/ April
+  - Viability of Aurora? 
+	  - Should we separate the necessary pieces into a new MOOSE component?
+	  - Should we simply rely on UM tracking?
+  - Delta tracking upate
+
 ### 2022-08-15
