@@ -71,9 +71,34 @@ This will be really nice to turn blocks of code from:
 ```cpp
 switch (interpolation_) {
     case Interpolation::lin_lin:
-        // interpo
+        // interpolate
+        break;
+    case Interpolation::lin_log:
+	    // interpolate
+	    break;
+    case Interpolation::log_lin:
+	    // interpolate
+	    break;
+    case Interpolation::log_log:
+	    // interpolate
+	    break;
+	case Interpolation::quadratic:
+	    // interpolate
+	    break;
+	case Interpolation::cubic:
+		//interpolate
+		break;
+	default:
+		fatal_error("Unrecognized interpolation");
 }
 ```
+
+into
+```cpp
+double val = Interpolate<interpolation_>(xs, ys, x);
+```
+
+With specialized implementations of the templates that will result in errors for an invalid `Interpolation` type.
 
 > This PR adds the log-log interpolation scheme to the  `EnergyFunctionFilter` class to support commonly used dose rate evaluations 
   Closes #1671.
