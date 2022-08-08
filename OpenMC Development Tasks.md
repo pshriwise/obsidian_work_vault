@@ -26,28 +26,54 @@ double val2 = yb0 + f * (yb1 - yb0);
 
 So a function that performs the entire interpolation isn't paticularly useful as we'd be recomputing this interpolation factor many times. I think I'd like to try this with some kind of templated structure that is designed to be temporary.
 
-```cpp
-struct FixedInterpolator<T> {
-
-	// computes interpolation factor(s) based on domain array and value
-	FixedInterpolator(xs, x);
-
-	// applies interpolation based on data that is expected to correspond
-	// to the domain array
-	double operator ()(ys);
-	
-	double interpolation_factor_;
-};
-
-struct Interpolator<T> {
-	In
-}
-```
-
 To keep the lines of code minimal for one-off interpolations, there might be two `struct`'s: `Interpolator` and `FixedInterpolator`.
 
   - `Interpolator` will perform a full interpolation based on the scheme specified
   - `FixedInterpolator` will perform a partial interpolation and hang around to be used for subsequent interpolations
+
+```cpp
+struct FixedInterpolator<T> {
+
+	// computes interpolation factor(s) based on domain array and value
+	FixedInterpolator(const std::vector<double>& xs, double x);
+
+	// applies interpolation based on data that is expected to correspond
+	// to the domain array
+	double operator ()(const std::vector<double>& ys);
+
+	size_t idx;
+	double interpolation_factor_;
+};
+```
+
+```cpp
+struct Interpolate<T> {
+	static double operator()(const std::vector<double>& xs, 
+	                         const std::vector<double&> ys,
+	                         double x);	
+}
+```
+
+In practice their use would look like:
+
+```cpp
+auto fi = FixedInterpolator<Interpolation::lin_lin>(xs, x);
+
+double val1 = fi(ya);
+double val2 = fi(yb);
+```
+
+```cpp
+double val = Interpolate<Interpolation::lin_lin>(xs, ys, x);
+```
+
+This will be really nice to turn blocks of code from:
+```cpp
+switch (interpolation_) {
+    case Interpolation::lin_lin:
+        // interpo
+}
+```
 
 > This PR adds the log-log interpolation scheme to the  `EnergyFunctionFilter` class to support commonly used dose rate evaluations 
   Closes #1671.
