@@ -8,7 +8,35 @@
 ### `EnergyFunctionFiler` Interpolation
 
 ### Interpolation Refactor
-Interpolation is 
+Interpolation is used in many places in OpenMC. The formulat for linear interpolation appears many times. Something like:
+
+```cpp
+double f = (x - x0) / (x1 - x0);
+double val = y0 + f * (y1 - y0);
+```
+
+I'd like to refactor this to minimize duplication of code. One challenge with this is that the interpolation factor, `f`, is often computed and used for multiple interpolations (for computing cross section values at multiple temperatures, for example).
+
+```cpp
+double f = (x - x0) / (x1 - x0);
+double val1 = ya0 + f * (ya1 - ya0);
+double val2 = yb0 + f * (yb1 - yb0);
+...
+```
+
+So a function that performs the entire interpolation isn't paticularly useful as we'd be recomputing this interpolation factor many times. I think I'd like to try this with some kind of templated structure that is designed to be temporary.
+
+```cpp
+struct Interpolator<T> {
+
+	// 
+	Interpolator(xs, x);
+
+	
+	double interp
+}
+```
+
 > This PR adds the log-log interpolation scheme to the  `EnergyFunctionFilter` class to support commonly used dose rate evaluations 
   Closes #1671.
   This PR was sponsored by our friends at First Light Fusion 💯 
