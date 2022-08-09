@@ -115,3 +115,7 @@ Update: it turns out that there are already several functions in OpenMC that pro
 #### On the ICRP interpolation type
 
 The [USER GUIDE TO THE ICRP CD AND THE DECDATA SOFTWARE](https://journals.sagepub.com/doi/10.1016/j.icrp.2008.10.001?icid=int.sj-abstract.similar-articles.2) indicates that a hermite cubic interpolation is used for some datasets. 
+
+
+### Small changes
+- [ ] 
