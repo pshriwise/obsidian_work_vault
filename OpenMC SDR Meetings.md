@@ -17,6 +17,13 @@
 		  - mesh-based
   - Timeline: milestone #4
 
+## 2022-08-09
+  - FNG dose model error
+	  - compute R2S values both with and without the model error
+  - Alex Valentine
+	  - benchmarking codes for fusion applications
+  - 
+
 ## Weight Window Generation Development
 
 ### Motivation for WW generation in C++
