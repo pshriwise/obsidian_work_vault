@@ -118,4 +118,5 @@ The [USER GUIDE TO THE ICRP CD AND THE DECDATA SOFTWARE](https://journals.sagepu
 
 
 ### Small changes
+- [ ] [Flip logic for efficiency here](https://github.com/openmc-dev/openmc/blob/c5d47a0918326239c15900a2b679e1d5481d9d6a/src/bremsstrahlung.cpp#L80). Will change random number stream.
 - [ ] 
