@@ -24,7 +24,15 @@
 	  - author of benchmarking codes for fusion applications
 	  - they will provide an updated source for FNG
   - OpenMC source distribution refactor
-	  - 
+- ### Discussion on control of when particles should check for an updated WW
+  - collisions/virtual collisions
+  - surface crossings
+	  - limited to pseudo-cells in MCNP
+  - N MFP's
+	  - mitigate long history problem by forcing rouletting to happen more often
+  - mesh crossings
+  - control splitting vs. rouletting?
+  - Look through MCNP manual and pick ones that are useful
 
 ## Weight Window Generation Development
 
@@ -111,10 +119,3 @@ WeightWindows::set_weight_windows(const std::vector<double>&& lower_bounds,
 ```
 
 
-### Discussion on control of when particles should check for an updated WW
-  - collisions/virtual collisions
-  - surface crossings
-	  - limited to pseudo-cells in MCNP
-  - N 
-  - mesh crossings
-  - control splitting vs. rouletting?
