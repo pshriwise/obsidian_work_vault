@@ -21,8 +21,10 @@
   - FNG dose model error
 	  - compute R2S values both with and without the model error
   - Alex Valentine
-	  - benchmarking codes for fusion applications
-  - 
+	  - author of benchmarking codes for fusion applications
+	  - they will provide an updated source for FNG
+  - OpenMC source distribution refactor
+	  - 
 
 ## Weight Window Generation Development
 
