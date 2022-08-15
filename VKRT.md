@@ -6,6 +6,7 @@
   - Visualization and rendering for HACC datasets
   - Extend Aaron Knoll's algorithms to RT hardware
   - "Friends of friends" -- simplest version of DBScan alg
+	  - ARBRX DBScan paper
   - All particles w/in fixed distance (big win!!)
   - Issue w/ observer (ray coherence)
   - New space
