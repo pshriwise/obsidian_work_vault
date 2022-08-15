@@ -2,7 +2,6 @@
 
 ## 2022-08-01
 
-
 Helen:
   - Updates to MOOSE
   - Should be releasing a newly tagged version of Aurora soon
