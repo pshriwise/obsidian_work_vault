@@ -8,5 +8,4 @@
 
 ### House
   - [ ] Translate Electrical Drawings
-  - [ ] Order tarp to house
   - [ ] 
