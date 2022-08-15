@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "VKRT.md",
+            "file": "TODO.md",
             "mode": "source",
             "source": false
           }
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VKRT.md",
+                "file": "TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,6 +91,7 @@
   },
   "active": "8e0d1810eb8b0a13",
   "lastOpenFiles": [
+    "VKRT.md",
     "libMesh Notes.md",
     "TODO.md",
     "Aurora-Cardinal Meeting Notes.md",
@@ -99,7 +100,6 @@
     "OpenMC SDR Meetings.md",
     "OpenMC Development Tasks.md",
     "conflict-files-obsidian-git.md",
-    "Nate Tasks.md",
-    "Aurora-Cardinal Ulam Build Notes.md"
+    "Nate Tasks.md"
   ]
 }
