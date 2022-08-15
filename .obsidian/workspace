@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TODO.md",
+            "file": "VKRT.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tasks",
+                "query": "tag:#ray-tracing",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,7 +54,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ae966c17e19ca44a",
@@ -70,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO.md",
+                "file": "VKRT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +91,8 @@
   },
   "active": "8e0d1810eb8b0a13",
   "lastOpenFiles": [
+    "libMesh Notes.md",
+    "TODO.md",
     "Aurora-Cardinal Meeting Notes.md",
     "Madison Work Tasks.md",
     "OpenMC RoadMap.md",
@@ -97,8 +100,6 @@
     "OpenMC Development Tasks.md",
     "conflict-files-obsidian-git.md",
     "Nate Tasks.md",
-    "Aurora-Cardinal Ulam Build Notes.md",
-    "libMesh Notes.md",
-    "MOOSE Ray Tracing Notes.md"
+    "Aurora-Cardinal Ulam Build Notes.md"
   ]
 }
