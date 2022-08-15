@@ -5,6 +5,7 @@
 ### Work
   - [ ] Compile Aurora
   - [ ] Re-compile VKRT
+  - [ ] Cleanup dawn
 
 ### House
   - [ ] Translate Electrical Drawings
