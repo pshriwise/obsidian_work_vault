@@ -3,7 +3,7 @@
 ## 2022-08-15
 
 ### Work
-  - [ ] Compile Aurora
+  - [ ] Finish Aurora `ulam`  compile
   - [ ] Re-compile VKRT
 	  - [ ] Add quality-of-life updates
   - [ ] Cleanup dawn
