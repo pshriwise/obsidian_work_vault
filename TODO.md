@@ -16,3 +16,6 @@
   - [ ] Translate Electrical Drawings
   - [ ] Finish floor plans
   - [ ] Import models to my onshape account
+
+### Home
+  - [ ] Sign up for goaltimate
