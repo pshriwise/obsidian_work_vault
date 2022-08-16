@@ -16,6 +16,7 @@
   - [ ] Translate Electrical Drawings
   - [ ] Finish floor plans
   - [ ] Import models to my onshape account
+  - [ ] Send check for chimney cleaning
 
 ### Home
   - [ ] Sign up for goaltimate
