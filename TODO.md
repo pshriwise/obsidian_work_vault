@@ -11,6 +11,7 @@
   - [ ] Finish material reporting for PyGriffin
 	  - [ ] report materials from `.i` files if that is what's provided
 	  - [ ] remove from Exodus file using `ncdump` if the mesh attribute has a `.e`/`.exo` extension
+  - [ ] Review PyGriffin PR
 
 ### House
   - [ ] Translate Electrical Drawings
