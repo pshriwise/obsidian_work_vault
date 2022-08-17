@@ -33,4 +33,7 @@ Meeting w/ April
 	  - Should we simply rely on UM tracking?
   - Delta tracking upate
 
+Funding streams
+  - Supplemental funding application for groups with existing funding from FES
+
 ### 2022-08-15
