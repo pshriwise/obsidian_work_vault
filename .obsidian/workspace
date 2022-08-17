@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8e0d1810eb8b0a13",
+        "id": "d03a0068fdc5dd7d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Aurora-Cardinal Meeting Notes.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ray-tracing",
+                "query": "tag:#fusion",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,7 +67,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Aurora-Cardinal Meeting Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,17 +84,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8e0d1810eb8b0a13",
+  "active": "d03a0068fdc5dd7d",
   "lastOpenFiles": [
+    "OpenMC Fusion Standing Meeting.md",
+    "OpenMC SDR Meetings.md",
+    "Aurora-Cardinal Meeting Notes.md",
     "Madison Work Tasks.md",
     "TODO.md",
     "VKRT.md",
     "libMesh Notes.md",
-    "Aurora-Cardinal Meeting Notes.md",
     "OpenMC RoadMap.md",
-    "OpenMC SDR Meetings.md",
     "OpenMC Development Tasks.md",
-    "conflict-files-obsidian-git.md",
-    "Nate Tasks.md"
+    "conflict-files-obsidian-git.md"
   ]
 }
