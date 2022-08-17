@@ -33,7 +33,10 @@
     - mesh crossings
 	- control splitting vs. rouletting?
 	- Look through MCNP manual and pick ones that are useful
-  - 
+
+## 2022-08-23
+  - Continued suport for Cardinal-Aurora coupling via FES supplemental funds?
+
 ## Weight Window Generation Development
 
 ### Motivation for WW generation in C++
