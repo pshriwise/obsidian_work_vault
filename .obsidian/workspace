@@ -7,8 +7,12 @@
         "id": "d03a0068fdc5dd7d",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "OpenMC Fusion Standing Meeting.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -67,6 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "OpenMC Fusion Standing Meeting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",

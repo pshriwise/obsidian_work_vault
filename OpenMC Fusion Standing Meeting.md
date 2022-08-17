@@ -5,3 +5,4 @@
   - Discussion with Matt Sederberg about potential proposal via FES supplemental funding
 	  - Could also be useful for LM-MHD/Cardinal-Aurora funding?
   - Ray tracing discussion with Nate Morrical and HACC group went very well
+  - I'll be on site Aug. 29 & 30th if you want to hack on things
