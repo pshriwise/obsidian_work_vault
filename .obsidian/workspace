@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Mentor Meetings.md",
+            "file": "OpenMC Standup Meeting.md",
             "mode": "source",
             "source": false
           }
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mentor Meetings.md",
+                "file": "OpenMC Standup Meeting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,7 +91,8 @@
   },
   "active": "d03a0068fdc5dd7d",
   "lastOpenFiles": [
-    "OpenMC Fusion Standing Meeting.md",
+    "Mentor Meetings.md",
+    "OpenMC Standup Meeting.md",
     "OpenMC SDR Meetings.md",
     "Aurora-Cardinal Meeting Notes.md",
     "Madison Work Tasks.md",
@@ -99,7 +100,6 @@
     "VKRT.md",
     "libMesh Notes.md",
     "OpenMC RoadMap.md",
-    "OpenMC Development Tasks.md",
-    "conflict-files-obsidian-git.md"
+    "OpenMC Development Tasks.md"
   ]
 }
