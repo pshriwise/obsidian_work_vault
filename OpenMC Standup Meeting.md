@@ -6,6 +6,7 @@
 - Ray tracing discussion with Nate Morrical and HACC group went very well
 - I'll be on site Aug. 29 & 30th if you want to hack on things
 - Meeting with Katie and Diane: Figure out invoice from NEA
+
 - Aug. 29/30 hacking topics
 	- Mesh based source distributions
 	- Source refactor
