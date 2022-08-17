@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Madison Work Tasks.md",
+            "file": "OpenMC Standup Meeting.md",
             "mode": "source",
             "source": false
           }
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Madison Work Tasks.md",
+                "file": "OpenMC Standup Meeting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,11 +91,11 @@
   },
   "active": "d03a0068fdc5dd7d",
   "lastOpenFiles": [
+    "Madison Work Tasks.md",
     "OpenMC Standup Meeting.md",
     "OpenMC SDR Meetings.md",
     "Mentor Meetings.md",
     "Aurora-Cardinal Meeting Notes.md",
-    "Madison Work Tasks.md",
     "TODO.md",
     "VKRT.md",
     "libMesh Notes.md",
