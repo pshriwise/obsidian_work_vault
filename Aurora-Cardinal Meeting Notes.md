@@ -35,5 +35,6 @@ Meeting w/ April
 
 Funding streams
   - Supplemental funding application for groups with existing funding from FES
+  - FES is out of money for this FY
 
 ### 2022-08-15
