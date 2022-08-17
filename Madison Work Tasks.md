@@ -11,3 +11,4 @@
 - [ ] Read on alias tables
 - [ ] XINK Training
 - [ ] Performance appraisal
+- [ ] ITER E-Lite run
