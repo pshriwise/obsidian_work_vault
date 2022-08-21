@@ -10,5 +10,5 @@
 	- [ ] https://www.energy.gov/sites/default/files/2019/04/f62/2019-04-25%20Part%20810%20FAQs.pdf
 - [x] Read on alias tables
 - [ ] TMS Training
-- [ ] Performance appraisal
-- [ ] ITER E-Lite run
+- [ ] Start performance appraisal
+- [x] ITER E-Lite run
