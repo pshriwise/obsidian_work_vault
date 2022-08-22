@@ -57,8 +57,18 @@ communication_type = ssh
 
 ### Enable remote job submission
 1. Add remote setup to configurations
-	1. Click "Add..." and select "Setup_Remote"
-	2. Click "Load Grammar" and wait
-	3. Click "Apply" then "Ok"
-2. Open the setup file
-3. 
+	1. Click "File..." and "Configurations..."
+	2. Click "Add..." and select "Setup_Remote"
+	3. Click "Load Grammar" and wait
+	4. Click "Apply" then "OK"
+3. Open the setup file
+4. Run this file with Workbench
+
+## Configure an Application on the Remote
+1. Click "File..." and "Configurations..."
+2. In "Applications..." select the application name from the setup file above (`arc_vtr5_pygriffin`) and click "OK"
+3. Click "Load Grammar" and wait
+4. Click "Apply" then "OK"
+
+## Running a Remote Application
+The remote application can now be run by opening the desired input file and selecting the application name matching the one in the setup file _in the righmost drop-down box_, checking for validation errors, and hitting "Run"
