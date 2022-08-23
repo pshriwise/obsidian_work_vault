@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Workbench Remote Setup.md",
+            "file": "OpenMC SDR Meetings.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Workbench Remote Setup.md",
+                "file": "OpenMC SDR Meetings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +90,7 @@
   },
   "active": "f1dd5c51dea5a12a",
   "lastOpenFiles": [
+    "Workbench Remote Setup.md",
     "Workbench in Docker.md",
     "Madison Work Tasks.md",
     "Nate Morrical at ANL Discussion Points.md",
@@ -98,7 +99,6 @@
     "conflict-files-obsidian-git.md",
     "Aurora-Cardinal Meeting Notes.md",
     "Nate Tasks.md",
-    "Aurora-Cardinal Ulam Build Notes.md",
-    "libMesh Notes.md"
+    "Aurora-Cardinal Ulam Build Notes.md"
   ]
 }
