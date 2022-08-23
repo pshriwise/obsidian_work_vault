@@ -13,3 +13,4 @@
 	- FNG R2S Dose chat
 	- FES update
 	- CSG cache cells on source distributions
+	- WW binary formats
