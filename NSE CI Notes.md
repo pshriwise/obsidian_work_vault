@@ -62,7 +62,23 @@ Once that command is complete. A green status should appear next to the runner i
 
 ![[Pasted image 20220824141126.png]]
 
-This 
+
+## Keeping the runner going after logging out
+
+Once you've checked that all of this works, we'll want to get the runner setup to continue after logging out of the machine.
+
+If the runner is still going from the previous steps, we'll want to shut down the runner (w/ `ctrl-C`).
+
+Then we'll open a `screen` instance and start the runner there:
+
+```bash
+# screen will open a new prompt
+$ screen
+# start the runner just like we did last time
+$ gitlab-runner run ci-test
+```
+
+To detatch from this `screen` instance, use 
 
 ## Creating a `.gitlab-ci.yml` file
 
