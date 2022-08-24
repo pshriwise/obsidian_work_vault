@@ -67,7 +67,7 @@ Once that command is complete. A green status should appear next to the runner i
 
 Once you've checked that all of this works, we'll want to get the runner setup to continue after logging out of the machine.
 
-If the runner is still going from the previous steps, we'll want to shut down the runner (w/ `ctrl-C`).
+If the runner is still going from the previous steps, we'll want to shut down the runner (w/ `ctrl-c`).
 
 Then we'll open a `screen` instance and start the runner there:
 
@@ -78,8 +78,16 @@ $ screen
 $ gitlab-runner run ci-test
 ```
 
-To detatch from this `screen` instance, use 
+To detatch from this `screen` instance, use `ctrl-a, d`. To reattach to this instance in the future, use `screen -r`. This shell will keep running even after logging out of the machine.
 
 ## Creating a `.gitlab-ci.yml` file
 
-This file contains the different steps for setup and build of the project 
+This file contains the different steps for setup and build of the project as well as indicators for which runners the CI run should use. These indicators are provided in the file in the "default" section. The execution of different steps is indicated in the "stages". The following is a simple version that 
+```sh
+default:
+  tags:
+    - ci-test
+
+stages:
+ 
+```
