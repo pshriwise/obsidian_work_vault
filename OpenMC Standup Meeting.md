@@ -12,9 +12,11 @@
 - Meeting with Katie and Diane: Figure out invoice from NEA
 
 - Aug. 30 hacking topics
-	- Mesh based source distributions
+	- Mesh based source distributions status review
 	- Source refactor
-	- FNG R2S Dose chat
+	- FNG R2S dose chat
 	- FES update
+		- Cell-based R2S
+		- Mesh-based sources
 	- CSG cache cells on source distributions
-	- WW binary formats
+	- Weight window binary formats (just a plan)
