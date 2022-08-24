@@ -7,7 +7,7 @@ There are 3 pieces to setting up CI:
   - CI runner creation on the `ci1` machine
   - The `.gitlab-ci.yml` file
 
-## Creating a gitlab runner
+## Checking CI machine access/setup
 
 Log in to `ci1.ne.anl.gov` and make sure you can run the following successfully.
 
@@ -15,30 +15,32 @@ Log in to `ci1.ne.anl.gov` and make sure you can run the following successfully.
 $ which gitlab-runnner
 ```
 
-This is the command we'll be using to connect the runner on the CI machine with the repo on gitlab. If 
+This is the command we'll be using to connect the runner on the CI machine with the repo on gitlab. If this command isn't available or the login fails, you may need to reach out to EGS for access to the machine/command.
 
-To do this we'll need 
+## Creating a gitlab runner on the CI Machine
+
+To do this we'll need:
 
 1. The URL of the gitlab server (https://git-out.gss.anl.gov/)
 2. A registration token from the repository. This can be found under `CI/CD` in the repo settings
+
 ![[Pasted image 20220824135221.png]]
 
 I'd recommend creating an environment variable for the registration token in case the gitlab runner creation takes more than one try.
 
 ```bash
-$ export REGISTRATION_TOKEN=<gitlab_repo_token>
+$ export REGISTRATION_TOKEN=GR1348941CtqQigP_4h5K7pkaXD9x
 ```
 
-To start the registration process, enter
+To start the registration process, use the following command:
 
 ```bash
 $ gitlab-runner register --url https://git-out.gss.anl.gov --registration-token $REGISTRATION_TOKEN
 ```
 
-This command is interactive and will ask for a series of fields. The first two you have already provided on the command line, so the default value (shown in brackets) can be left as-is.
+This command is interactive and will ask for entries in series of fields. The first two you have already provided on the command line, so the default value (shown in brackets) can be left as-is.
 
 The command will request the following pieces of information as well:
-
 - Description: A name for the runner in the `gitlab-runner` system on the CI machine
 - Tags: These are fairly important. They are how we'll identify the runner to use for CI in the `.gitlab-ci.yml` file.
 - Maintenance Note: Not super important. You can set it to whatever you like.
