@@ -29,6 +29,7 @@ To do this we'll need:
 I'd recommend creating an environment variable for the registration token in case the gitlab runner creation takes more than one try.
 
 ```bash
+# your 
 $ export REGISTRATION_TOKEN=GR1348941CtqQigP_4h5K7pkaXD9x
 ```
 
@@ -64,7 +65,7 @@ Once that command is complete. A green status should appear next to the runner i
 ![[Pasted image 20220824141126.png]]
 
 
-## Keeping the runner going after logging out
+## Keeping the runner online after logging out
 
 Once you've checked that all of this works, we'll want to get the runner setup to continue after logging out of the machine.
 
@@ -83,7 +84,7 @@ To detatch from this `screen` instance, use `ctrl-a, d`. To reattach to this ins
 
 ## Creating a `.gitlab-ci.yml` file
 
-This file should be added to the top directory of the repository and contains the different steps for setup and build of the project as well as indicators for which runners the CI run should use. These indicators are provided in the file in the "default" section. The execution of different steps is indicated in the "stages". The following is a simple with two stages.
+This file should be added to the top directory of the repository and contains the different steps for setup and build of the project as well as indicators for which runners the CI run should use. These indicators are provided in the file in the "default" section. The execution of different steps is indicated in the "stages". The following is a simple CI file with two stages.
 
 ```sh
 default:
@@ -105,4 +106,4 @@ test:
     - echo "Testing"
     
 ```
-For more options on how to run scripts and manage the CI environment, the documentation on this file can be found [here](https://docs.gitlab.com/ee/ci/yaml/gitlab_ci_yaml.html)
+For more options on how to run scripts and manage the CI environment, the general documentation, not specific to EGS's gitlab instance, on this file can be found [here](https://docs.gitlab.com/ee/ci/yaml/gitlab_ci_yaml.html)
