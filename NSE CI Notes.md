@@ -82,12 +82,26 @@ To detatch from this `screen` instance, use `ctrl-a, d`. To reattach to this ins
 
 ## Creating a `.gitlab-ci.yml` file
 
-This file contains the different steps for setup and build of the project as well as indicators for which runners the CI run should use. These indicators are provided in the file in the "default" section. The execution of different steps is indicated in the "stages". The following is a simple version that 
+This file should be added to the top directory of the repository and contains the different steps for setup and build of the project as well as indicators for which runners the CI run should use. These indicators are provided in the file in the "default" section. The execution of different steps is indicated in the "stages". The following is a simple with two stages.
+
 ```sh
 default:
   tags:
     - ci-test
 
 stages:
- 
+  - build
+  - test
+
+build:
+  stage: build
+  script:
+	 - echo "Building"
+
+test:
+  stage: test
+  script:
+    - echo "Testing"
+    
 ```
+For more options on how to run scripts and manage the CI environment, the documentation on this file can be found [here](https://docs.gitlab.com/ee/ci/yaml/gitlab_ci_yaml.html)
