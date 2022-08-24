@@ -52,11 +52,18 @@ If you specified "shell" for the executor, that's it for this step! The `CI/CD` 
 Note the warining sign to the left of the runner ID. Now that the runner is registered, we need to start the runner on the CI machine. We can do this by running
 
 ```bash
-# use 
+
 $ gitlab-runner run ci-test
 ```
 
+Be sure to use your ci descriptor here instead of `ci-test` if needed. 
+
+Once that command is complete. A green status should appear next to the runner in the repo.
+
 ![[Pasted image 20220824141126.png]]
+
+This 
+
 ## Creating a `.gitlab-ci.yml` file
 
 This file contains the different steps for setup and build of the project 
