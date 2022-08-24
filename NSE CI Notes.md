@@ -23,11 +23,19 @@ To do this we'll need
 1. The URL of the gitlab server (https://git-out.gss.anl.gov/)
 2. A registration token from the repository. This can be found under `CI/CD` in the 
 
-I'd recommend setting the registration token using an 
+I'd recommend creating an environment variable for the registration token in case the gitlab runner creation takes more than one try.
 
 ```bash
-$ gitlab-runner
+$ export REGISTRATION_TOKEN=<gitlab_repo_token>
 ```
+
+To start the registration process, enter
+
+```bash
+$ gitlab-runner register --url https://git-out.gss.anl.gov --registration-token $REGISTRATION_TOKEN
+```
+
+This comman
 
 ## Finding your repo's registration token
 
