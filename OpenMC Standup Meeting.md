@@ -3,10 +3,6 @@
 
 ## 2022-08-24
 - R2S workflow updates
-- New machine
-- Hackathon next week
-- NEA meeting
-
 
 ## 2022-08-17
 - Discussion with Matt Sederberg about potential proposal via FES supplemental funding
@@ -15,7 +11,7 @@
 - I'll be on site Aug. 29 & 30th if you want to hack on things
 - Meeting with Katie and Diane: Figure out invoice from NEA
 
-- Aug. 29/30 hacking topics
+- Aug. 30 hacking topics
 	- Mesh based source distributions
 	- Source refactor
 	- FNG R2S Dose chat
