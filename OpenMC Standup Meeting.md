@@ -1,5 +1,13 @@
 #fusion #openmc
 
+
+## 2022-08-24
+- R2S workflow updates
+- New machine
+- Hackathon next week
+- NEA meeting
+
+
 ## 2022-08-17
 - Discussion with Matt Sederberg about potential proposal via FES supplemental funding
 	- Could also be useful for LM-MHD/Cardinal-Aurora funding?
