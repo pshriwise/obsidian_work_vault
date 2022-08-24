@@ -21,10 +21,7 @@ This is the command we'll be using to connect the runner on the CI machine with 
 To do this we'll need 
 
 1. The URL of the gitlab server (https://git-out.gss.anl.gov/)
-2. A registration token from the repository (see  "Finding your ")
-
-### Getting a registration token
-
+2. A registration token from the repository. This can be found under `CI/CD` in the 
 
 I'd recommend setting the registration token using an 
 
@@ -32,9 +29,7 @@ I'd recommend setting the registration token using an
 $ gitlab-runner
 ```
 
-## Repo CI Configuration
+## Finding your repo's registration token
 
-First the repo's CI needs to be activated and a runner added.
-
-These options can be found under `settings -> CI/CD` in the repo. 
+The registr
 
