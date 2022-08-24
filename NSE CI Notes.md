@@ -21,7 +21,8 @@ This is the command we'll be using to connect the runner on the CI machine with 
 To do this we'll need 
 
 1. The URL of the gitlab server (https://git-out.gss.anl.gov/)
-2. A registration token from the repository. This can be found under `CI/CD` in the 
+2. A registration token from the repository. This can be found under `CI/CD` in the repo settings
+![[Pasted image 20220824135221.png]]
 
 I'd recommend creating an environment variable for the registration token in case the gitlab runner creation takes more than one try.
 
@@ -44,11 +45,12 @@ The command will request the following pieces of information as well:
 - Maintenance Note: Not super important. You can set it to whatever you like.
 - Executor: This indicates what environment the runner will use. The most common is shell, meaning that the initial test environment will be the same as a standard ssh into the CI machine. You can also tell the runner to execute everything inside a Docker container or ssh into another machine to run the tests.
 
-If you specified "shell" for the executor, that's it for this step!
+If you specified "shell" for the executor, that's it for this step! The `CI/CD` page in the repo should now show the newly-registered runner.
 
+![[Pasted image 20220824135249.png]]
 
+Now that the 
 
-## Finding your repo's registration token
+## Creating a `.gitlab-ci.yml` file
 
-The registr
-
+This file contains the different steps for setup and build of 
