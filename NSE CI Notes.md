@@ -53,4 +53,4 @@ Now that the
 
 ## Creating a `.gitlab-ci.yml` file
 
-This file contains the different steps for setup and build of 
+This file contains the different steps for setup and build of the project 
