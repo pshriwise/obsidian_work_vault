@@ -10,4 +10,6 @@ There are 3 pieces to setting up CI:
 
 ## Repo CI Configuration
 
-First the repo's CI needs to be 
+First the repo's CI needs to be activated and a runner added.
+
+These options can be found under `settings -> CI/CD` in the repo. 
