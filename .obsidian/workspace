@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OpenMC SDR Meetings.md",
+            "file": "OpenMC Development Tasks.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#fusion",
+                "query": "interpolation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,8 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ae966c17e19ca44a",
@@ -71,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenMC SDR Meetings.md",
+                "file": "OpenMC Development Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,15 +90,15 @@
   },
   "active": "f1dd5c51dea5a12a",
   "lastOpenFiles": [
+    "interpolation.md",
+    "OpenMC SDR Meetings.md",
     "NSE CI Notes.md",
     "OpenMC Standup Meeting.md",
-    "OpenMC SDR Meetings.md",
     "Workbench Remote Setup.md",
     "Workbench in Docker.md",
     "Madison Work Tasks.md",
     "Nate Morrical at ANL Discussion Points.md",
     "OpenMC Development Tasks.md",
-    "conflict-files-obsidian-git.md",
-    "Aurora-Cardinal Meeting Notes.md"
+    "conflict-files-obsidian-git.md"
   ]
 }
