@@ -37,6 +37,10 @@
 ## 2022-08-23
   - Continued suport for Cardinal-Aurora coupling via FES supplemental funds?
 
+## 2022-09-06
+- Coreform Cubit supplemental funding
+	- Seems like Attila4MC is doing okay finding-wise so we might not need to worry as much about them?
+
 ## Weight Window Generation Development
 
 ### Motivation for WW generation in C++
