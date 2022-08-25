@@ -31,7 +31,8 @@ So a function that performs the entire interpolation isn't paticularly useful as
 There are a number of places where interpolation occurs in OpenMC. All are done manually now, with the index search, interpolation factor, and interpolation occuring in different locations depending on the need. I'll try to enumerate all of the interpolation use cases in OpenMC here:
 
 - Standard interpolation -- index, interpolation factor, and interpolated value are all computed in one place
-- One X grid, multiple interpolations -- in this case, an int
+- One X grid, multiple interpolations -- in this case, an index and interpolation factor are computed, but the interpolation occurs for different Y grids.
+- 
 
 To keep the lines of code minimal for one-off interpolations, there might be two `struct`'s: `Interpolator` and `FixedInterpolator`.
 
