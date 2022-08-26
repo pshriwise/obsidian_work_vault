@@ -26,10 +26,20 @@ double val2 = yb0 + f * (yb1 - yb0);
 
 So a function that performs the entire interpolation isn't paticularly useful as we'd be recomputing this interpolation factor many times. I think I'd like to try this with some kind of templated structure that is designed to be temporary.
 
+## Interpolation Use Cases
+
+There are a number of places where interpolation occurs in OpenMC. All are done manually now, with the index search, interpolation factor, and interpolation occuring in different locations depending on the need. I'll try to enumerate all of the interpolation use cases in OpenMC here:
+
+1. Standard interpolation -- index, interpolation factor, and interpolated value are all computed in one place
+2. One X grid, multiple interpolations -- in this case, an index and interpolation factor are computed, but the interpolation occurs for different Y grids.
+3. Interpolation over sub-grid -- in some cases, the interpolation occurs over a subset of the full grid, so the constructors for interpolation need to accomodate this case.
+
+## Implementation Plan
 To keep the lines of code minimal for one-off interpolations, there might be two `struct`'s: `Interpolator` and `FixedInterpolator`.
 
   - `Interpolator` will perform a full interpolation based on the scheme specified
   - `FixedInterpolator` will perform a partial interpolation and hang around to be used for subsequent interpolations
+
 
 ```cpp
 struct FixedInterpolator<T> {
