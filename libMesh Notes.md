@@ -46,7 +46,7 @@ Future optimizations:
 ## Traversing the Octree
 Using `TreeBase::find_element` as a guide here. This algorithm uses a root tree node to start the search for an element containing the search point.
 
-First, a containment check is performed:
+First, a containment check is performed on the root node:
 
 ```cpp
 template <unsigned int N>
@@ -75,3 +75,60 @@ TreeNode<N>::find_element (const Point & p,
 }
 ```
 
+Then a recursive search is performed using `TreeBase::find_element_in_children`. This is where the traversal occurs.
+
+```cpp
+template <unsigned int N>
+const Elem * TreeNode<N>::find_element_in_children (const Point & p,
+                                                    const std::set<subdomain_id_type> * allowed_subdomains,
+                                                    Real relative_tol) const
+{
+  libmesh_assert (!this->active());
+
+  // value-initialization sets all array members to false
+  auto searched_child = std::array<bool, N>();
+
+  // First only look in the children whose bounding box
+  // contain the point p.
+  for (auto c : index_range(children))
+    if (children[c]->bounds_point(p, relative_tol))
+      {
+        const Elem * e =
+          children[c]->find_element(p,allowed_subdomains,
+                                    relative_tol);
+
+        if (e != nullptr)
+          return e;
+
+        // If we get here then a child that bounds the
+        // point does not have any elements that contain
+        // the point.  So, we will search all our children.
+        // However, we have already searched child c so there
+        // is no use searching her again.
+        searched_child[c] = true;
+      }
+
+
+  // If we get here then our child whose bounding box
+  // was searched and did not find any elements containing
+  // the point p.  So, let's look at the other children
+  // but exclude the one we have already searched.
+  for (auto c : index_range(children))
+    if (!searched_child[c])
+      {
+        const Elem * e =
+          children[c]->find_element(p,allowed_subdomains,
+                                    relative_tol);
+
+        if (e != nullptr)
+          return e;
+      }
+
+  // If we get here we have searched all our children.
+  // Since this process was started at the root node then
+  // we have searched all the elements in the tree without
+  // success.  So, we should return nullptr since at this point
+  // _no_ elements in the tree claim to contain point p.
+  return nullptr;
+}
+```
