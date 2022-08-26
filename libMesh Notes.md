@@ -42,3 +42,6 @@ At each node in the tree:
 Future optimizations:
   - sort children by intersection distance
   - determine next child by which face of the box is hit
+
+## Traversing the Octree
+- 
