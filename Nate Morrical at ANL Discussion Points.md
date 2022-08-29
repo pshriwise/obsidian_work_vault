@@ -12,4 +12,4 @@
 * Monte Carlo Geometry Mapping w Random Sphere Walks
 * Approaches to iterative method for KNN wit Motion Blur
 	* A-priori knowledge of maximum distance
-	* 
+	* Category masking
