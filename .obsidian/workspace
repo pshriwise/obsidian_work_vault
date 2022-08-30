@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hack",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +90,8 @@
   },
   "active": "f1dd5c51dea5a12a",
   "lastOpenFiles": [
-    "Nate Morrical at ANL Discussion Points.md",
     "OpenMC Standup Meeting.md",
+    "Nate Morrical at ANL Discussion Points.md",
     "OpenMC Development Tasks.md",
     "OpenMC SDR Meetings.md",
     "TODO.md",
