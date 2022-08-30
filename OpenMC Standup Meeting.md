@@ -13,6 +13,7 @@
 
 - Aug. 30 hacking topics
 	- Mesh based source distributions status review
+		- Need a way to apply sources to the mesh
 	- Source refactor
 	- FNG R2S dose chat
 		- Need to get custom source from Andy
@@ -20,5 +21,6 @@
 	- FES update
 		- Cell-based R2S
 		- Mesh-based sources
+		- Unstructured mesh BC's
 	- CSG cache cells on source distributions
 	- Weight window binary formats (just a plan)
