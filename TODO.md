@@ -16,6 +16,7 @@
 - [ ] Bebop MPI issue w/ WW generation script
 - [ ] libMesh ray tracing
 - [ ] Separate eff-log branch into 2 PRs
+- [ ] Add Halite to WASP build in PyARC
 
 
 ### House
