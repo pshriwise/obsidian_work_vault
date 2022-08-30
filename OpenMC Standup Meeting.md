@@ -15,9 +15,10 @@
 	- Mesh based source distributions status review
 	- Source refactor
 	- FNG R2S dose chat
+		- Need to get custom source from Andy
+		- Running all time points from benchmark to confirm trend
 	- FES update
 		- Cell-based R2S
 		- Mesh-based sources
 	- CSG cache cells on source distributions
 	- Weight window binary formats (just a plan)
-	- Bebop MPI issue w/ WW generation script
