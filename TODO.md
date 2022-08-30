@@ -5,14 +5,16 @@
 ### Work
   - [x] Finish Aurora `ulam`  compile
   - [ ] Fix Aurora tests on `ulam`
-  - [ ] Re-compile VKRT
-	  - [ ] Add quality-of-life updates
+  - [x] Re-compile VKRT
+	  - [x] Add quality-of-life updates
   - [x] Cleanup dawn
   - [ ] Finish material reporting for PyGriffin
 	  - [ ] report materials from `.i` files if that is what's provided
-	  - [ ] remove from Exodus file using `ncdump` if the mesh attribute has a `.e`/`.exo` extension
-  - [ ] Review PyGriffin PR
-
+	  - [x] remove from Exodus file using `ncdump` if the mesh attribute has a `.e`/`.exo` extension
+  - [x] Review PyGriffin PR
+- [ ] OpenMC environment on VTR machines
+- [ ] Bebop MPI issue w/ WW generation script
+- [ ] 
 ### House
   - [ ] Translate Electrical Drawings
   - [ ] Finish floor plans
