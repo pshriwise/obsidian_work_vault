@@ -5,8 +5,7 @@
 	- rtk
 	- srtk
 	- gprtk
-- Embree vs. Swiftshader for host side ray tracer
-	- 
+- Embree -- we'll go with this it looks like
 
 * Monte Carlo Geometry Mapping w Random Sphere Walks
 * Approaches to iterative method for KNN wit Motion Blur
