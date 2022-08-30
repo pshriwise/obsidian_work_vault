@@ -14,7 +14,10 @@
   - [x] Review PyGriffin PR
 - [ ] OpenMC environment on VTR machines
 - [ ] Bebop MPI issue w/ WW generation script
-- [ ] 
+- [ ] libMesh ray tracing
+- [ ] Separate eff-log branch into 2 PRs
+
+
 ### House
   - [ ] Translate Electrical Drawings
   - [ ] Finish floor plans
