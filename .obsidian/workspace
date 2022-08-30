@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TODO.md",
+            "file": "Nate Morrical at ANL Discussion Points.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#ray",
+                "query": "hack",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO.md",
+                "file": "Nate Morrical at ANL Discussion Points.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,15 +90,15 @@
   },
   "active": "f1dd5c51dea5a12a",
   "lastOpenFiles": [
+    "OpenMC Standup Meeting.md",
+    "OpenMC Development Tasks.md",
+    "OpenMC SDR Meetings.md",
+    "TODO.md",
     "Nate Morrical at ANL Discussion Points.md",
     "libMesh Notes.md",
     "Madison Work Tasks.md",
-    "OpenMC SDR Meetings.md",
-    "OpenMC Development Tasks.md",
     "conflict-files-obsidian-git.md",
     "Aurora-Cardinal Meeting Notes.md",
-    "Nate Tasks.md",
-    "Aurora-Cardinal Ulam Build Notes.md",
-    "MOOSE Ray Tracing Notes.md"
+    "Nate Tasks.md"
   ]
 }

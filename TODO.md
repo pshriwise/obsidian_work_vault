@@ -13,7 +13,6 @@
 	  - [x] remove from Exodus file using `ncdump` if the mesh attribute has a `.e`/`.exo` extension
   - [x] Review PyGriffin PR
 - [ ] OpenMC environment on VTR machines
-- [ ] Bebop MPI issue w/ WW generation script
 - [ ] libMesh ray tracing
 - [ ] Separate eff-log branch into 2 PRs
 - [ ] Add Halite to WASP build in PyARC
