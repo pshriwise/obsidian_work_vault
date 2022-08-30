@@ -14,7 +14,7 @@
 - Aug. 30 hacking topics
 	- Mesh based source distributions status review
 		- Need a way to apply sources to the mesh
-	- Source refactor
+
 	- FNG R2S dose chat
 		- Need to get custom source from Andy
 		- Running all time points from benchmark to confirm trend
@@ -27,4 +27,10 @@
 		- When to write these files?
 			- 
 		- Format?
-			- 
+			- matches
+
+
+TODO:
+- [ ] Source refactor
+- [ ] Angle/Energy distributions on a mesh
+- [ ] 
