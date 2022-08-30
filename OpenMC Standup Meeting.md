@@ -24,3 +24,7 @@
 		- Unstructured mesh BC's
 	- CSG cache cells on source distributions
 	- Weight window binary formats (just a plan)
+		- When to write these files?
+			- 
+		- Format?
+			- 
