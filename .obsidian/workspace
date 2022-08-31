@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f1dd5c51dea5a12a",
+        "id": "3a42e9581bc16c32",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "OpenMC Standup Meeting.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -54,7 +50,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ae966c17e19ca44a",
@@ -70,7 +67,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenMC Standup Meeting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,8 +84,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f1dd5c51dea5a12a",
+  "active": "3a42e9581bc16c32",
   "lastOpenFiles": [
+    "Untitled 1.md",
     "OpenMC Standup Meeting.md",
     "Nate Morrical at ANL Discussion Points.md",
     "OpenMC Development Tasks.md",
@@ -98,7 +95,6 @@
     "libMesh Notes.md",
     "Madison Work Tasks.md",
     "conflict-files-obsidian-git.md",
-    "Aurora-Cardinal Meeting Notes.md",
-    "Nate Tasks.md"
+    "Aurora-Cardinal Meeting Notes.md"
   ]
 }
