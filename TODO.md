@@ -16,6 +16,8 @@
 - [ ] libMesh ray tracing
 - [ ] Separate eff-log branch into 2 PRs
 - [ ] Add Halite to WASP build in PyARC
+- [ ] Try OpenMC solution w/ Workbench 5.0
+- [ ] Read FES Aug. report
 
 
 ### House
