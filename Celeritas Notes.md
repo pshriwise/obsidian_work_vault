@@ -9,3 +9,4 @@
 - RNG
 	- unique RNG state for each thread
 	- no calls to RNG before allocating storage for secondaries (must know max N of secondaries a priori)
+- No spline interpolation with current interpolation approach!!
