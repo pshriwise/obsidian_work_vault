@@ -4,13 +4,16 @@
 
 ### Work
   - [x] Finish Aurora `ulam`  compile
-  - [ ] Fix Aurora tests on `ulam`
+  - [x] Fix Aurora tests on `ulam`
   - [x] Re-compile VKRT
 	  - [x] Add quality-of-life updates
   - [x] Cleanup dawn
   - [ ] Finish material reporting for PyGriffin
-	  - [ ] report materials from `.i` files if that is what's provided
+	  - [x] report materials from `.i` files if that is what's provided
 	  - [x] remove from Exodus file using `ncdump` if the mesh attribute has a `.e`/`.exo` extension
+	  - [ ] add tests
+	  - [ ] self-review
+	  - [ ] MR
   - [x] Review PyGriffin PR
 - [ ] OpenMC environment on VTR machines
 - [ ] libMesh ray tracing
