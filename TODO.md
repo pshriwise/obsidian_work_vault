@@ -15,9 +15,11 @@
 	  - [ ] self-review
 	  - [ ] MR
   - [x] Review PyGriffin PR
-- [ ] OpenMC environment on VTR machines
+- [x] OpenMC environment on VTR machines
 - [ ] libMesh ray tracing
-- [ ] Separate eff-log branch into 2 PRs
+- [ ] eff-log branch
+	- [ ] Add quadratic tests
+	- [ ] Finish template
 - [ ] Add Halite to WASP build in PyARC
 - [ ] Try OpenMC solution w/ Workbench 5.0
 - [x] Read FES Aug. report
