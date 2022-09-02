@@ -18,7 +18,7 @@
 - [ ] Add Halite to WASP build in PyARC
 - [ ] Try OpenMC solution w/ Workbench 5.0
 - [ ] Read FES Aug. report
-
+- [ ] Re-build VKRT
 
 ### House
   - [ ] Translate Electrical Drawings
