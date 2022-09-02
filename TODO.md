@@ -25,9 +25,9 @@
 
 ### House
   - [ ] Translate Electrical Drawings
-  - [ ] Finish floor plans
-  - [ ] Import models to my onshape account
-  - [ ] Send check for chimney cleaning
+  - [x] Finish floor plans
+  - [x] Import models to my onshape account
+  - [x] Send check for chimney cleaning
 
 ### Home
-  - [ ] Sign up for goaltimate
+  - [x] Sign up for goaltimate
