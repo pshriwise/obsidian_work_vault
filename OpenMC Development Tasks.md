@@ -133,6 +133,11 @@ I've run into a few road blocks for implementing a general Interpolation class i
 
   - [ ] Write class with Interpolation specialization
   - [ ] Add template parameter that is the interpolation type and use specialization to define functions https://github.com/celeritas-project/celeritas/blob/master/src/celeritas/grid/detail/InterpolatorTraits.hh
+  - [ ] At this point, should be able to do:
+```cpp
+template<>
+using LinLinInterpolator = FixedInterpolator<Interpolation::lin_lin>
+```
   - [ ] Write partial specializations of Interpolation class https://en.cppreference.com/w/cpp/language/partial_specialization
   - [ ] Use inheritance to reduce code duplication
 
