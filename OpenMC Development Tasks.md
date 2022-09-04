@@ -127,6 +127,15 @@ Update: it turns out that there are already several functions in OpenMC that pro
 The [USER GUIDE TO THE ICRP CD AND THE DECDATA SOFTWARE](https://journals.sagepub.com/doi/10.1016/j.icrp.2008.10.001?icid=int.sj-abstract.similar-articles.2) indicates that a hermite cubic interpolation is used for some datasets. 
 
 
+### Interpolation Roadblocks
+
+I've run into a few road blocks for implementing a general Interpolation class in OpenMC.
+
+  - [ ] Write class with Interpolation specialization
+  - [ ] Add template parameter that is the interpolation type and use specialization to define functions https://github.com/celeritas-project/celeritas/blob/master/src/celeritas/grid/detail/InterpolatorTraits.hh
+  - [ ] Write partial specializations of Interpolation class https://en.cppreference.com/w/cpp/language/partial_specialization
+  - [ ] Use inheritance to reduce code duplication
+
 ### Small changes
 - [ ] [Flip logic for efficiency here](https://github.com/openmc-dev/openmc/blob/c5d47a0918326239c15900a2b679e1d5481d9d6a/src/bremsstrahlung.cpp#L80). Will change random number stream.
 - [ ] 

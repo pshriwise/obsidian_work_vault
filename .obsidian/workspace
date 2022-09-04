@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "A. Lund Celeritas Presentation Notes.md",
+            "file": "OpenMC Development Tasks.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "log",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A. Lund Celeritas Presentation Notes.md",
+                "file": "OpenMC Development Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +90,7 @@
   },
   "active": "f1dd5c51dea5a12a",
   "lastOpenFiles": [
+    "A. Lund Celeritas Presentation Notes.md",
     "TODO.md",
     "OpenMC Standup Meeting.md",
     "Nate Morrical at ANL Discussion Points.md",
@@ -98,7 +99,6 @@
     "libMesh Notes.md",
     "Madison Work Tasks.md",
     "conflict-files-obsidian-git.md",
-    "Aurora-Cardinal Meeting Notes.md",
-    "Nate Tasks.md"
+    "Aurora-Cardinal Meeting Notes.md"
   ]
 }
