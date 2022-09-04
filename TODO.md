@@ -21,7 +21,7 @@
 	- [ ] Add quadratic tests
 	- [ ] Finish template
 - [ ] Add Halite to WASP build in PyARC
-- [ ] Try OpenMC solution w/ Workbench 5.0
+- [x] Try OpenMC solution w/ Workbench 5.0
 - [x] Read FES Aug. report
 - [x] Re-build VKRT
 
