@@ -21,9 +21,13 @@
 	- [ ] Add quadratic tests
 	- [ ] Finish template
 - [ ] Add Halite to WASP build in PyARC
+	- [ ] get MR merged into WASP
 - [x] Try OpenMC solution w/ Workbench 5.0
 - [x] Read FES Aug. report
 - [x] Re-build VKRT
+- [ ] Radiasoft
+	- [ ] WW gen functions
+	- [ ] 8 mo. report section on WWs
 
 ### House
   - [ ] Translate Electrical Drawings
