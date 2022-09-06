@@ -143,4 +143,67 @@ using LinLinInterpolator = FixedInterpolator<Interpolation::lin_lin>;
 
 ### Small changes
 - [ ] [Flip logic for efficiency here](https://github.com/openmc-dev/openmc/blob/c5d47a0918326239c15900a2b679e1d5481d9d6a/src/bremsstrahlung.cpp#L80). Will change random number stream.
-- [ ] 
+
+
+### Current PR Draft
+
+The purpose of this PR is two-fold: 
+
+### Introduce additional interpolation types to the `EnergFunctionFilter` class: quadratic, and cubic Lagrangian interpolation. 
+- These interpolation types are useful for computing dose rate tallies and are recommended for inclusion by the IRCP report cited in #1671.
+
+
+### Re-factor of our interpolation approach
+
+These changes include the creation of a new class, `Interpolator` that should be able to handle any of the following interpolation types:
+       - linear-linear
+       - log-linear
+       - linear-log
+       - log-log
+       - quadratic
+       - cubic
+
+Overall, the idea is to go from blocks of code that might look like
+
+```cpp
+switch (interpolation_) {
+    case Interpolation::lin_lin:
+        // interpolate
+        break;
+    case Interpolation::lin_log:
+	    // interpolate
+	    break;
+    case Interpolation::log_lin:
+	    // interpolate
+	    break;
+    case Interpolation::log_log:
+	    // interpolate
+	    break;
+	case Interpolation::quadratic:
+	    // interpolate
+	    break;
+	case Interpolation::cubic:
+		//interpolate
+		break;
+	default:
+		fatal_error("Unrecognized interpolation");
+}
+```
+
+to the following 
+
+```cpp
+auto interpolator = FixedInterpolator(xs, x, interpolation_);
+interpolator(ys);
+```
+
+There were several ways in which interpolation is used through out the code that made a single interpolation structure a little tricky:
+
+  - Standard interpolation -- index, interpolation factor, and interpolated value are all computed in one place
+  - One X grid, multiple interpolations -- in this case, an index and interpolation factor are computed, but the interpolation occurs for different Y grids.
+  - Interpolation over sub-grid -- in some cases, the interpolation occurs over a subset of the full grid, so the constructors for interpolation need to accommodate this case.
+
+
+Some issues with this approach:
+  - simple interpolation cases now have more indirection
+  - the interpolation process is more opaque
