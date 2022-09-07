@@ -7,12 +7,8 @@
         "id": "f1dd5c51dea5a12a",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "OpenMC Development Tasks.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -70,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenMC Development Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,8 +85,8 @@
   },
   "active": "f1dd5c51dea5a12a",
   "lastOpenFiles": [
-    "TODO.md",
     "OpenMC Development Tasks.md",
+    "TODO.md",
     "A. Lund Celeritas Presentation Notes.md",
     "OpenMC Standup Meeting.md",
     "Nate Morrical at ANL Discussion Points.md",
