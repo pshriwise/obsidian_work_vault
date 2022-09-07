@@ -1,4 +1,4 @@
-#opennmc
+#openmc 
 
 ### Development Task List
 - [ ] Refactor interpolation code
