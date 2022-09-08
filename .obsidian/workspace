@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OpenMC ExaSMR Meeting Notes.md",
+            "file": "Nate Morrical at ANL Discussion Points.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#openmc",
+                "query": "tag:#ray-tracing",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenMC ExaSMR Meeting Notes.md",
+                "file": "Nate Morrical at ANL Discussion Points.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +90,8 @@
   },
   "active": "f1dd5c51dea5a12a",
   "lastOpenFiles": [
+    "GPRT.md",
+    "OpenMC ExaSMR Meeting Notes.md",
     "OpenMC Development Tasks.md",
     "TODO.md",
     "A. Lund Celeritas Presentation Notes.md",
@@ -97,8 +99,6 @@
     "Nate Morrical at ANL Discussion Points.md",
     "OpenMC SDR Meetings.md",
     "libMesh Notes.md",
-    "Madison Work Tasks.md",
-    "conflict-files-obsidian-git.md",
-    "Aurora-Cardinal Meeting Notes.md"
+    "Madison Work Tasks.md"
   ]
 }

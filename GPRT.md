@@ -1,5 +1,5 @@
 #ray-tracing 
-# VKRT Notes
+# GPRT Notes
 
 ### Meeting w/ HACC team 2022-08-15
   - KNN / range for clustering algs
