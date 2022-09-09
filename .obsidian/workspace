@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OpenMC Development Tasks.md",
+            "file": "TODO.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenMC Development Tasks.md",
+                "file": "TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,10 +90,10 @@
   },
   "active": "f1dd5c51dea5a12a",
   "lastOpenFiles": [
+    "OpenMC Development Task Notes.md",
     "Nate Morrical at ANL Discussion Points.md",
     "GPRT.md",
     "OpenMC ExaSMR Meeting Notes.md",
-    "OpenMC Development Tasks.md",
     "TODO.md",
     "A. Lund Celeritas Presentation Notes.md",
     "OpenMC Standup Meeting.md",
