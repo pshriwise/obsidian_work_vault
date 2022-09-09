@@ -32,6 +32,8 @@
 	- [ ] Kalin 
 	- [ ] Tamra
 	- [ ] Mine
+		- [ ] Update PANDA
+- [ ] OpenMC EsaSMR Tallies
 
 ### House
   - [ ] Translate Electrical Drawings
