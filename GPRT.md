@@ -14,3 +14,6 @@
 	  - Local Voronoi volume
 	  - Point containment to KNN
 
+## Meeting w/ Intel RT 2022-09-09
+
+  - 
