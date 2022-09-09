@@ -209,17 +209,3 @@ Some issues with this approach:
   - the interpolation process is more opaque
 
 
-## Latest PR Draft
-
-In the report mentioned in #1671, the ICRP report recommends Lagrangian interpolation of effective dose factors.
-
-This PR adds the following interpolation types to the existing 'linear-linear' interpolation in the EnergyFunctionFitler to support a variety of interpolation types:
-
-  - log-linear
-  - linear-log
-  - log-log
-  - quadratic Lagrangian
-  - cubic Lagrangian
- 
-This work was sponsored by our friends at First LIght Fusion 💯 
-![image](https://user-images.githubusercontent.com/4563941/182013014-94f0f348-9edc-4890-b1f1-3a275954c073.png)
