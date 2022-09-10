@@ -17,9 +17,9 @@
   - [x] Review PyGriffin PR
 - [x] OpenMC environment on VTR machines
 - [ ] libMesh ray tracing
-- [ ] eff-log branch
-	- [ ] Add quadratic tests
-	- [ ] Finish template
+- [x] eff-log branch
+	- [x] Add quadratic tests
+	- [x] Finish template
 - [ ] Add Halite to WASP build in PyARC
 	- [ ] get MR merged into WASP
 - [x] Try OpenMC solution w/ Workbench 5.0
@@ -28,6 +28,12 @@
 - [ ] Radiasoft
 	- [ ] WW gen functions
 	- [ ] 8 mo. report section on WWs
+- [ ] Performance appraisals
+	- [ ] Kalin 
+	- [ ] Tamra
+	- [ ] Mine
+		- [ ] Update PANDA
+- [ ] OpenMC EsaSMR Tallies
 
 ### House
   - [ ] Translate Electrical Drawings

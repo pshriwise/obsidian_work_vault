@@ -1,4 +1,4 @@
-#opennmc
+#openmc 
 
 ### Development Task List
 - [ ] Refactor interpolation code
@@ -147,24 +147,6 @@ using LinLinInterpolator = FixedInterpolator<Interpolation::lin_lin>;
 
 ### Current PR Draft
 
-The purpose of this PR is two-fold: 
-
-### Introduce additional interpolation types to the `EnergFunctionFilter` class: quadratic, and cubic Lagrangian interpolation. 
-- These interpolation types are useful for computing dose rate tallies and are recommended for inclusion by the IRCP report cited in #1671.
-
-
-### Re-factor of our interpolation approach
-
-These changes include the creation of a new class, `Interpolator` that should be able to handle any of the following interpolation types:
-       - linear-linear
-       - log-linear
-       - linear-log
-       - log-log
-       - quadratic
-       - cubic
-
-Overall, the idea is to go from blocks of code that might look like
-
 ```cpp
 switch (interpolation_) {
     case Interpolation::lin_lin:
@@ -207,3 +189,5 @@ There were several ways in which interpolation is used through out the code that
 Some issues with this approach:
   - simple interpolation cases now have more indirection
   - the interpolation process is more opaque
+
+

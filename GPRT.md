@@ -1,5 +1,5 @@
 #ray-tracing 
-# VKRT Notes
+# GPRT Notes
 
 ### Meeting w/ HACC team 2022-08-15
   - KNN / range for clustering algs
@@ -14,3 +14,6 @@
 	  - Local Voronoi volume
 	  - Point containment to KNN
 
+## Meeting w/ Intel RT 2022-09-09
+
+  - 
