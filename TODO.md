@@ -11,9 +11,10 @@
   - [ ] Finish material reporting for PyGriffin
 	  - [x] report materials from `.i` files if that is what's provided
 	  - [x] remove from Exodus file using `ncdump` if the mesh attribute has a `.e`/`.exo` extension
-	  - [ ] add tests
-	  - [ ] self-review
-	  - [ ] MR
+	  - [x] add tests
+	  - [x] self-review
+	  - [x] MR
+	  - [ ] Add parsing of mesh block IDs
   - [x] Review PyGriffin PR
 - [x] OpenMC environment on VTR machines
 - [ ] libMesh ray tracing
@@ -33,7 +34,7 @@
 	- [ ] Tamra
 	- [ ] Mine
 		- [ ] Update PANDA
-- [ ] OpenMC EsaSMR Tallies
+- [x] OpenMC EsaSMR Tallies
 
 ### House
   - [ ] Translate Electrical Drawings
