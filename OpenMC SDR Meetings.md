@@ -89,11 +89,11 @@ Update the weight windows using data from the specified tally. The tally is requ
 \param value One of ('mean', 'rel_err'). Used to specify the type of tally information used when computing weight windows.
 \param method The method used for computing weight windows (TBD)
 */
-openmc_update_weight_windows(int32_t tally_id,
-							 int32_t* ww_id,
-							 const char* score = "flux",
-							 const char* value = "mean",
-							 const char* method);
+int openmc_update_weight_windows(int32_t tally_id,
+	    						 int32_t* ww_id,
+		    					 const char* score = "flux",
+			    				 const char* value = "mean",
+				    			 const char* method);
 ```
 
 Add `openmc_weight_window_init(int32_t mesh_id, double* e_bounds)`
