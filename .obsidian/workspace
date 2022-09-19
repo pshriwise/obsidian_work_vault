@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TODO.md",
+            "file": "OpenMC SDR Meetings.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "weight_windo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO.md",
+                "file": "OpenMC SDR Meetings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,6 +91,8 @@
   },
   "active": "3a42e9581bc16c32",
   "lastOpenFiles": [
+    "OpenMC Features.md",
+    "OpenMC Development Task Notes.md",
     "OpenMC Development Tasks.md",
     "TODO.md",
     "Untitled 1.md",
@@ -98,8 +100,6 @@
     "Nate Morrical at ANL Discussion Points.md",
     "OpenMC SDR Meetings.md",
     "libMesh Notes.md",
-    "Madison Work Tasks.md",
-    "conflict-files-obsidian-git.md",
-    "Aurora-Cardinal Meeting Notes.md"
+    "Madison Work Tasks.md"
   ]
 }
