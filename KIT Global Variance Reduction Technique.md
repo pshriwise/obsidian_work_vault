@@ -13,7 +13,7 @@ Steps:
   - get the neutron flux value from the specified tally
   - compute the `t_value` for the tally based on the number of realizations
   - get the max and min flux for each energy group on the tally
-  - compute new weight window values
+  - compute new weight window values using the KIT approach
 ```c++
 // for each energy group
 for (int ee = 0; ee < energy_size; ++ee) {
@@ -21,27 +21,27 @@ for (int ee = 0; ee < energy_size; ++ee) {
   // celar all data before each energy group
   double PS_k = 0.4/log(1/near_source);
 
-double PS_b = 0.5 - log(max_flux_data[ee]/min_flux_data[ee])*PS_k;
+  double PS_b = 0.5 - log(max_flux_data[ee]/min_flux_data[ee])*PS_k;
 
   
 
-// mesh
+  // mesh
+  for (int mm = 0; mm < mesh_size; ++mm) {
 
-for (int mm = 0; mm < mesh_size; ++mm) {
+  lower_ww_[mm+ee*mesh_size] = -1;
 
-lower_ww_[mm+ee*mesh_size] = -1;
+  upper_ww_[mm+ee*mesh_size] = -5;
 
-upper_ww_[mm+ee*mesh_size] = -5;
+  if (flux_data[mm+ee*mesh_size] <= 0) continue;
 
-if (flux_data[mm+ee*mesh_size] <= 0) continue;
+  if (flux_data[mm+ee*mesh_size] >= near_source*max_flux_data[ee]) 
+  lower_ww_[mm+ee*mesh_size] = log(flux_data[mm+ee*mesh_size]/min_flux_data[ee]) * 
+  PS_k + PS_b;
 
-if (flux_data[mm+ee*mesh_size] >= near_source*max_flux_data[ee]) lower_ww_[mm+ee*mesh_size] = log(flux_data[mm+ee*mesh_size]/min_flux_data[ee]) * PS_k + PS_b;
+  else lower_ww_[mm+ee*mesh_size] = 
+   0.1*flux_data[mm+ee*mesh_size]/(near_source*max_flux_data[ee]);
 
-else lower_ww_[mm+ee*mesh_size] = 
- 0.1*flux_data[mm+ee*mesh_size]/(near_source*max_flux_data[ee]);
-
- upper_ww_[mm+ee*mesh_size] = 5*lower_ww_[mm+ee*mesh_size];
-}
-
+   upper_ww_[mm+ee*mesh_size] = 5*lower_ww_[mm+ee*mesh_size];
+  }
 }
 ```
