@@ -23,25 +23,52 @@ for (int ee = 0; ee < energy_size; ++ee) {
 
   double PS_b = 0.5 - log(max_flux_data[ee]/min_flux_data[ee])*PS_k;
 
-  
-
-  // mesh
+  //mesh
   for (int mm = 0; mm < mesh_size; ++mm) {
 
-  lower_ww_[mm+ee*mesh_size] = -1;
+    lower_ww_[mm+ee*mesh_size] = -1;
+ 
+    upper_ww_[mm+ee*mesh_size] = -5;
 
-  upper_ww_[mm+ee*mesh_size] = -5;
+    if (flux_data[mm+ee*mesh_size] <= 0) continue;
 
-  if (flux_data[mm+ee*mesh_size] <= 0) continue;
+    if (flux_data[mm+ee*mesh_size] >= near_source*max_flux_data[ee]) 
+    lower_ww_[mm+ee*mesh_size] = log(flux_data[mm+ee*mesh_size]/min_flux_data[ee]) * 
+    PS_k + PS_b;
 
-  if (flux_data[mm+ee*mesh_size] >= near_source*max_flux_data[ee]) 
-  lower_ww_[mm+ee*mesh_size] = log(flux_data[mm+ee*mesh_size]/min_flux_data[ee]) * 
-  PS_k + PS_b;
+    else lower_ww_[mm+ee*mesh_size] = 
+     0.1*flux_data[mm+ee*mesh_size]/(near_source*max_flux_data[ee]);
 
-  else lower_ww_[mm+ee*mesh_size] = 
-   0.1*flux_data[mm+ee*mesh_size]/(near_source*max_flux_data[ee]);
+     upper_ww_[mm+ee*mesh_size] = 5*lower_ww_[mm+ee*mesh_size];
+  }
 
-   upper_ww_[mm+ee*mesh_size] = 5*lower_ww_[mm+ee*mesh_size];
+}
+```
+
+- for the [MAGIC method](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1046.4111&rep=rep1&type=pdf) this will look a little different
+```c++
+// for each energy group
+for (int ee = 0; ee < energy_size; ++ee) {
+
+  //mesh
+  for (int mm = 0; mm < mesh_size; ++mm) {
+
+	lower_ww_[mm+ee*mesh_size] = -1;
+ 
+    upper_ww_[mm+ee*mesh_size] = -5;
+
+    if (flux_data[mm+ee*mesh_size] <= 0) continue;
+
+	flux_data[mm+ee*mesh_si]
+
+    if (flux_data[mm+ee*mesh_size] >= near_source*max_flux_data[ee]) 
+    lower_ww_[mm+ee*mesh_size] = log(flux_data[mm+ee*mesh_size]/min_flux_data[ee]) * 
+    PS_k + PS_b;
+
+    else lower_ww_[mm+ee*mesh_size] = 
+     0.1*flux_data[mm+ee*mesh_size]/(near_source*max_flux_data[ee]);
+
+     upper_ww_[mm+ee*mesh_size] = 5*lower_ww_[mm+ee*mesh_size];
   }
 }
 ```
