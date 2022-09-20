@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OpenMC SDR Meetings.md",
+            "file": "KIT Global Variance Reduction Technique.md",
             "mode": "source",
             "source": false
           }
@@ -71,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenMC SDR Meetings.md",
+                "file": "KIT Global Variance Reduction Technique.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,6 +91,7 @@
   },
   "active": "3a42e9581bc16c32",
   "lastOpenFiles": [
+    "OpenMC SDR Meetings.md",
     "OpenMC Features.md",
     "OpenMC Development Task Notes.md",
     "OpenMC Development Tasks.md",
@@ -98,7 +99,6 @@
     "Untitled 1.md",
     "OpenMC Standup Meeting.md",
     "Nate Morrical at ANL Discussion Points.md",
-    "OpenMC SDR Meetings.md",
     "libMesh Notes.md",
     "Madison Work Tasks.md"
   ]
