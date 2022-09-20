@@ -43,7 +43,7 @@
 
 ## 2022-09-20
 - Fusion neutronics meeting in Jan
-- 
+- ExaSMR meeting in Cambridge Dec. 1-2
 
 ## Weight Window Generation Development
 
