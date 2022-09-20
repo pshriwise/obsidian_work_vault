@@ -16,12 +16,10 @@ Steps:
   - compute new weight window values
 ```c++
 // for each energy group
-
 for (int ee = 0; ee < energy_size; ++ee) {
 
-// celar all data before each energy group
-
-double PS_k = 0.4/log(1/near_source);
+  // celar all data before each energy group
+  double PS_k = 0.4/log(1/near_source);
 
 double PS_b = 0.5 - log(max_flux_data[ee]/min_flux_data[ee])*PS_k;
 
