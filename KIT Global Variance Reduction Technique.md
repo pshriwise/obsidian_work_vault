@@ -53,22 +53,15 @@ for (int ee = 0; ee < energy_size; ++ee) {
   //mesh
   for (int mm = 0; mm < mesh_size; ++mm) {
 
+	// use std::fill here instead
 	lower_ww_[mm+ee*mesh_size] = -1;
- 
     upper_ww_[mm+ee*mesh_size] = -5;
 
     if (flux_data[mm+ee*mesh_size] <= 0) continue;
 
-	flux_data[mm+ee*mesh_si]
+	lower_ww_[mm+ee*mesh_size] /= max_flux_data[ee];
 
-    if (flux_data[mm+ee*mesh_size] >= near_source*max_flux_data[ee]) 
-    lower_ww_[mm+ee*mesh_size] = log(flux_data[mm+ee*mesh_size]/min_flux_data[ee]) * 
-    PS_k + PS_b;
-
-    else lower_ww_[mm+ee*mesh_size] = 
-     0.1*flux_data[mm+ee*mesh_size]/(near_source*max_flux_data[ee]);
-
-     upper_ww_[mm+ee*mesh_size] = 5*lower_ww_[mm+ee*mesh_size];
+    upper_ww_[mm+ee*mesh_size] = 5 * lower_ww_[mm+ee*mesh_size];
   }
 }
 ```
