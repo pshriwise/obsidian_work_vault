@@ -45,6 +45,7 @@
 - Fusion neutronics meeting in Jan
 - SOFE 2023 - Oxford, UK July 9-13
 - ExaSMR meeting in Cambridge Dec. 1-2
+	- Afternoon of Dec. 2
 
 ## Weight Window Generation Development
 
