@@ -39,10 +39,11 @@
 
 ## 2022-09-06
 - Coreform Cubit supplemental funding
-	- Seems like Attila4MC is doing okay finding-wise so we might not need to worry as much about them?
+	- abandon, not in political interests, suggest to Matt Sederberg that we re-apply under SBIR
 
 ## 2022-09-20
 - Fusion neutronics meeting in Jan
+- SOFE 2023 - Oxford, UK July 9-13
 - ExaSMR meeting in Cambridge Dec. 1-2
 
 ## Weight Window Generation Development
