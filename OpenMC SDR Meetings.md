@@ -42,7 +42,8 @@
 	- Seems like Attila4MC is doing okay finding-wise so we might not need to worry as much about them?
 
 ## 2022-09-20
-
+- Fusion neutronics meeting in Jan
+- 
 
 ## Weight Window Generation Development
 
