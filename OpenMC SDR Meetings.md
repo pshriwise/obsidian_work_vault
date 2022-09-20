@@ -41,6 +41,9 @@
 - Coreform Cubit supplemental funding
 	- Seems like Attila4MC is doing okay finding-wise so we might not need to worry as much about them?
 
+## 2022-09-20
+
+
 ## Weight Window Generation Development
 
 ### Motivation for WW generation in C++
