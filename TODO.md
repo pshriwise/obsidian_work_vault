@@ -29,6 +29,9 @@
 - [ ] Radiasoft
 	- [ ] WW gen functions
 	- [ ] 8 mo. report section on WWs
+	- [ ] Feedback from DAGMC demo
+		- [ ] Add outlines, clipping
+		- [ ] Particle tracks
 - [ ] Performance appraisals
 	- [ ] Kalin 
 	- [ ] Tamra

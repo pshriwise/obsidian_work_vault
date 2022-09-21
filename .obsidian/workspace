@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "radiasoft",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,8 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ae966c17e19ca44a",
@@ -89,7 +88,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3a42e9581bc16c32",
+  "active": "0c63ce81bbd6ca70",
   "lastOpenFiles": [
     "OpenMC Development Tasks.md",
     "TODO.md",
