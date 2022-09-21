@@ -39,7 +39,13 @@
 
 ## 2022-09-06
 - Coreform Cubit supplemental funding
-	- Seems like Attila4MC is doing okay finding-wise so we might not need to worry as much about them?
+	- abandon, not in political interests, suggest to Matt Sederberg that we re-apply under SBIR
+
+## 2022-09-20
+- Fusion neutronics meeting in Jan
+- SOFE 2023 - Oxford, UK July 9-13
+- ExaSMR meeting in Cambridge Dec. 1-2
+	- Afternoon of Dec. 2
 
 ## Weight Window Generation Development
 
@@ -89,11 +95,11 @@ Update the weight windows using data from the specified tally. The tally is requ
 \param value One of ('mean', 'rel_err'). Used to specify the type of tally information used when computing weight windows.
 \param method The method used for computing weight windows (TBD)
 */
-openmc_update_weight_windows(int32_t tally_id,
-							 int32_t* ww_id,
-							 const char* score = "flux",
-							 const char* value = "mean",
-							 const char* method);
+int openmc_update_weight_windows(int32_t tally_id,
+	    						 int32_t* ww_id,
+		    					 const char* score = "flux",
+			    				 const char* value = "mean",
+				    			 const char* method);
 ```
 
 Add `openmc_weight_window_init(int32_t mesh_id, double* e_bounds)`
