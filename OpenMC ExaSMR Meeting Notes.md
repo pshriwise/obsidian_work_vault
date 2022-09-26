@@ -4,7 +4,7 @@
 - Handling errors for the GPU version of OpenMC
 - [ ] check on 2D tally results w/ tally branch
 
-Error checking on GPU branch
+	Error checking on GPU branch
   CUDA assert if on NVIDIA
   if not, openmp specialization to implement printf and/or other assertion
   
