@@ -43,6 +43,7 @@
 ## Radiasoft
   - Does libmesh allow AMR w/ non-univorm aspect ratios?
   - What problems might need a huge mesh?
+  - Letter of support from her and others?
   - AMReX
 	  - CFD solvers (Nek5K?)
 	  - Aspects of this proposal that require Exascale
