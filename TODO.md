@@ -46,7 +46,7 @@
   - AMReX
 	  - CFD solvers (Nek5K?)
 	  - Aspects of this proposal that require Exascale
-	  - AMReX in MOOSE or discussions w/ INL?
+	  - AMReX in MOOSE or discussions w/ INL? (Phase 2?)
 
 ### House
   - [ ] Translate Electrical Drawings
