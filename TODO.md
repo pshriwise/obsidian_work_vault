@@ -39,6 +39,15 @@
 		- [ ] Update PANDA
 - [x] OpenMC EsaSMR Tallies
 
+
+## Radiasoft
+  - Does libmesh allow AMR w/ non-univorm aspect ratios?
+  - What problems might need a huge mesh?
+  - AMReX
+	  - CFD solvers (Nek5K?)
+	  - Aspects of this proposal that require Exascale
+	  - AMReX in MOOSE or discussions w/ INL?
+
 ### House
   - [ ] Translate Electrical Drawings
   - [x] Finish floor plans
