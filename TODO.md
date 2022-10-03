@@ -39,7 +39,6 @@
 		- [ ] Update PANDA
 - [x] OpenMC EsaSMR Tallies
 
-
 ## Radiasoft
   - Does libmesh allow AMR w/ non-univorm aspect ratios?
   - What problems might need a huge mesh?
