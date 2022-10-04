@@ -47,6 +47,14 @@
 - ExaSMR meeting in Cambridge Dec. 1-2
 	- Afternoon of Dec. 2
 
+## 2022-10-04
+
+FES Milestone FOA
+  - Multiphysics whitepaper?
+  - CFS not particularly interested in neutronics work
+  - Mostly experimental work
+  - 
+
 ## Weight Window Generation Development
 
 ### Motivation for WW generation in C++
