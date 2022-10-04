@@ -21,35 +21,28 @@
 - [x] eff-log branch
 	- [x] Add quadratic tests
 	- [x] Finish template
-- [ ] Add Halite to WASP build in PyARC
-	- [ ] get MR merged into WASP
+- [x] Add Halite to WASP build in PyARC
+	- [x] get MR merged into WASP
 - [x] Try OpenMC solution w/ Workbench 5.0
 - [x] Read FES Aug. report
 - [x] Re-build VKRT
 - [ ] Radiasoft
 	- [ ] WW gen functions
 	- [ ] 8 mo. report section on WWs
-	- [ ] Feedback from DAGMC demo
-		- [ ] Add outlines, clipping
-		- [ ] Particle tracks
-- [ ] Performance appraisals
-	- [ ] Kalin 
-	- [ ] Tamra
-	- [ ] Mine
-		- [ ] Update PANDA
+	- [x] Feedback from DAGMC demo
+		- [x] Add outlines, clipping
+		- [x] Particle tracks
+- [x] Performance appraisals
+	- [x] Kalin 
+	- [x] Tamra
+	- [x] Mine
+		- [x] Update PANDA
 - [x] OpenMC EsaSMR Tallies
 
-## Radiasoft
-  - Does libmesh allow AMR w/ non-univorm aspect ratios?
-  - What problems might need a huge mesh?
-  - Letter of support from her and others?
-  - AMReX
-	  - CFD solvers (Nek5K?)
-	  - Aspects of this proposal that require Exascale
-	  - AMReX in MOOSE or discussions w/ INL? (Phase 2?)
 
 ### House
   - [ ] Translate Electrical Drawings
+  - [ ] Draw CAD
   - [x] Finish floor plans
   - [x] Import models to my onshape account
   - [x] Send check for chimney cleaning
