@@ -22,3 +22,9 @@ OpenMC workshop instance setup
 
 
 Jupyter lab password: openmc2022
+
+
+## NEA Online Workshop Oct. 2022
+
+## M&C Workshop Aug. 2023
+  - I have the workshop description from PHYSOR ready to send off

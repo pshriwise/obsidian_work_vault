@@ -7,8 +7,12 @@
         "id": "235d8d5729c75a75",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "OpenMC Workshops.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -36,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "radia",
+                "query": "OpenMC Workshop",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "OpenMC Workshops.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,6 +90,7 @@
   },
   "active": "235d8d5729c75a75",
   "lastOpenFiles": [
+    "Untitled 2.md",
     "OpenMC SDR Meetings.md",
     "TODO.md",
     "OpenMC ExaSMR Meeting Notes.md",
@@ -93,7 +99,6 @@
     "OpenMC Development Task Notes.md",
     "OpenMC Development Tasks.md",
     "Untitled 1.md",
-    "OpenMC Standup Meeting.md",
-    "Nate Morrical at ANL Discussion Points.md"
+    "OpenMC Standup Meeting.md"
   ]
 }
