@@ -53,7 +53,6 @@ FES Milestone FOA
   - Multiphysics whitepaper?
   - CFS not particularly interested in neutronics work
   - Mostly experimental work
-  - 
 
 ## Weight Window Generation Development
 
