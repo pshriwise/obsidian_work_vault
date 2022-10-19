@@ -38,11 +38,12 @@
 	- [x] Mine
 		- [x] Update PANDA
 - [x] OpenMC EsaSMR Tallies
-
+- [ ] GPRT -- DAGMC model by volume
+- [ ] PyARC -- CI changeover
 
 ### House
   - [ ] Translate Electrical Drawings
-  - [ ] Draw CAD
+  - [x] Draw CAD
   - [x] Finish floor plans
   - [x] Import models to my onshape account
   - [x] Send check for chimney cleaning

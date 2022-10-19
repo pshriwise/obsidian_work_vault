@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "235d8d5729c75a75",
+        "id": "3a42e9581bc16c32",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OpenMC SDR Meetings.md",
+            "file": "TODO.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CI",
+                "query": "weight_windo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,7 +54,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ae966c17e19ca44a",
@@ -70,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenMC SDR Meetings.md",
+                "file": "TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,17 +89,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "235d8d5729c75a75",
+  "active": "3a42e9581bc16c32",
   "lastOpenFiles": [
-    "NSE CI Notes.md",
     "OpenMC Workshops.md",
-    "Untitled 2.md",
-    "OpenMC SDR Meetings.md",
-    "TODO.md",
     "OpenMC ExaSMR Meeting Notes.md",
+    "OpenMC SDR Meetings.md",
     "KIT Global Variance Reduction Technique.md",
     "OpenMC Features.md",
     "OpenMC Development Task Notes.md",
-    "OpenMC Development Tasks.md"
+    "OpenMC Development Tasks.md",
+    "TODO.md",
+    "Untitled 1.md",
+    "OpenMC Standup Meeting.md"
   ]
 }
