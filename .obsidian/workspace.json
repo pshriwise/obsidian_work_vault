@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenMC SDR Meetings.md",
+                "file": "TODO.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tasks",
+                "query": "tag:#TODO",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenMC SDR Meetings.md",
+                "file": "TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,15 +98,15 @@
   },
   "active": "f1dd5c51dea5a12a",
   "lastOpenFiles": [
-    "OpenMC Development Tasks.md",
-    "OpenMC SDR Meetings.md",
-    "conflict-files-obsidian-git.md",
-    "Aurora-Cardinal Meeting Notes.md",
+    "ANL Student Lifecycle Notes.md",
     "Untitled 1.md",
     "Madison Work Tasks.md",
+    "OpenMC Development Tasks.md",
+    "OpenMC SDR Meetings.md",
+    "TODO.md",
+    "conflict-files-obsidian-git.md",
+    "Aurora-Cardinal Meeting Notes.md",
     "Nate Tasks.md",
-    "Aurora-Cardinal Ulam Build Notes.md",
-    "libMesh Notes.md",
-    "MOOSE Ray Tracing Notes.md"
+    "Aurora-Cardinal Ulam Build Notes.md"
   ]
 }
