@@ -30,6 +30,9 @@
 			- matches
 
 
+# 2022-10-31
+- Talk to Paul about OpenMC dev meeting
+
 TODO:
 - [ ] Source refactor
 - [ ] Angle/Energy distributions on a mesh
