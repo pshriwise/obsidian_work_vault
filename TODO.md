@@ -18,4 +18,5 @@
 		  - Add equivalent `fmesh` tally to the MCNP model
   - [ ] Update MGXS temperature read
   - [ ] Fix libMesh uninitialized filename error and add test
-  - [ ] Add shaping capability for tallies with meshes 
+  - [ ] Add shaping capability for tallies with mesh filters
+  - [ ] 
