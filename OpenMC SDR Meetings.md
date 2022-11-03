@@ -119,3 +119,10 @@ WeightWindows::set_weight_windows(const std::vector<double>&& lower_bounds,
 ```
 
 
+OpenMC Dev Meeting 2022
+  - Identify a set of tasks that would exercise the current API well, asssign teams to peform those workflows, and report back with proposed API changes
+  - Cleanup of Statepoint object -- proxy
+	  - Only claims file handle when reading data, checks timestamp hash for validity of statepoint file
+	  - What to do about `summary.h5`?
+	  - What about `model.xml`?
+		  - 

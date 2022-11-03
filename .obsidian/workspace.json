@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO.md",
+                "file": "OpenMC SDR Meetings.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO.md",
+                "file": "OpenMC SDR Meetings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,12 +98,12 @@
   },
   "active": "f1dd5c51dea5a12a",
   "lastOpenFiles": [
+    "TODO.md",
     "ANL Student Lifecycle Notes.md",
     "Untitled 1.md",
     "Madison Work Tasks.md",
     "OpenMC Development Tasks.md",
     "OpenMC SDR Meetings.md",
-    "TODO.md",
     "conflict-files-obsidian-git.md",
     "Aurora-Cardinal Meeting Notes.md",
     "Nate Tasks.md",
