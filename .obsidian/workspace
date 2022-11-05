@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OpenMC Standup Meeting.md",
+            "file": "IAEA CEFR TCS.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenMC Standup Meeting.md",
+                "file": "IAEA CEFR TCS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +90,7 @@
   },
   "active": "235d8d5729c75a75",
   "lastOpenFiles": [
+    "OpenMC Standup Meeting.md",
     "OpenMC Workshop Feedback '22.md",
     "OpenMC SDR Meetings.md",
     "NSE CI Notes.md",
@@ -98,7 +99,6 @@
     "TODO.md",
     "OpenMC ExaSMR Meeting Notes.md",
     "KIT Global Variance Reduction Technique.md",
-    "OpenMC Features.md",
-    "OpenMC Development Task Notes.md"
+    "OpenMC Features.md"
   ]
 }
