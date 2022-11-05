@@ -17,5 +17,9 @@ High-level design notes:
 	- for clean core, measured at 3 different locations, critical insertion depth is then extrapolated from a control rod worth curve
 
 ### Control Rod Worth Tests
-- For a given configuration of all control rods in the core, one is moved and the reactivity difference is meas
+- For a given configuration of all control rods in the core, one is moved and the reactivity difference is measured
+
+$$ \rho = \frac{|k^{after}_{eff} - k^{before}_{eff}|}
+{k^{after}_{eff} \times k^{before}_{eff}} \times 10^{5} (pcm$$
+
 	
