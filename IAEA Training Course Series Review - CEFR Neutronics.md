@@ -17,9 +17,19 @@ High-level design notes:
 	- for clean core, measured at 3 different locations, critical insertion depth is then extrapolated from a control rod worth curve
 
 ### Control Rod Worth Tests
-- For a given configuration of all control rods in the core, one is moved and the reactivity difference is measured
+For a given configuration of all control rods in the core, one is moved and the reactivity difference is measured
 
 $$ \rho = \frac{|k^{after}_{eff} - k^{before}_{eff}|}
-{k^{after}_{eff} \times k^{before}_{eff}} \times 10^{5} (pcm$$
+{k^{after}_{eff} \times k^{before}_{eff}} \times 10^{5} (pcm)$$
 
-	
+### Sodium Void Coefficient Measurement
+ A single assembly is replaced with a vacuum-sealed assembly containing no sodium. The reactivity change is measured as
+
+$$ \rho = \frac{k^{void}_{eff} - k^{orig}_{eff}}
+{k^{void}_{eff} \times k^{orig}_{eff}} \times 10^{5} (pcm)$$
+## Neutronics Model Parameters
+- Temperatures are all at 250 °C
+- Material compositions calculated from natural abundances for isotopes in the nuclear dataset
+- Densities and axial lengths account for expansion coefficient
+- Volumes are calculated analytically
+- Atomic and mass densities of fuel isotopes are used to calculate fuel composition at startup (2.97% enriched)
