@@ -17,3 +17,6 @@
 ## Accounts
 -   LCRC 
 -   JLSE (sometimes)
+
+## Housing Primer
+- Summarize and update notes from previous summer
