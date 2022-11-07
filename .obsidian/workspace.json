@@ -1,0 +1,123 @@
+{
+  "main": {
+    "id": "e56200f6af78440c",
+    "type": "split",
+    "children": [
+      {
+        "id": "992a7ebb600a85a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "235d8d5729c75a75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IAEA Training Course Series Review - CEFR Neutronics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a55e1250575062bc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.3"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eff1749970da373d",
+    "type": "split",
+    "children": [
+      {
+        "id": "95f30a242740a139",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45137db0e995b54a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0c63ce81bbd6ca70",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "CI",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ae966c17e19ca44a",
+    "type": "split",
+    "children": [
+      {
+        "id": "7382b0c7d219f04f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2721f482e52f943",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "IAEA Training Course Series Review - CEFR Neutronics.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "a55e1250575062bc",
+  "lastOpenFiles": [
+    "OpenMC Standup Meeting.md",
+    "OpenMC Workshop Feedback '22.md",
+    "OpenMC SDR Meetings.md",
+    "NSE CI Notes.md",
+    "OpenMC Workshops.md",
+    "Untitled 2.md",
+    "TODO.md",
+    "OpenMC ExaSMR Meeting Notes.md",
+    "KIT Global Variance Reduction Technique.md",
+    "OpenMC Features.md"
+  ]
+}
