@@ -45,6 +45,7 @@ Overall notes:
 settings_file.temperature = {'method': 'nearest',
 							 'tolerance': 300}
 ```
-   Was a custom data library being used here to 
+   Was a custom data library being used to generate the report data?
+
 - Line comments:
   - L467: Setting the `openmc.Materials.cross_sections` attribute to a hard-coded path is going to cause a problem. I'd suggest setting this attribute as if the cross sections are included in the same directory as the Python script and add a comment above that line on how to set the environment variable `OPENMC_CROSS_SECTIONS` in case the learner would prefer to do this instead.
