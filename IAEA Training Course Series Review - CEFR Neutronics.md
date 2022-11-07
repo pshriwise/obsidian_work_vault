@@ -34,4 +34,5 @@ $$ \rho = \frac{k^{void}_{eff} - k^{orig}_{eff}}
 - Volumes are calculated analytically
 - Atomic and mass densities of fuel isotopes are used to calculate fuel composition at startup (2.97% enriched)
 
-### 
+### Notes on Code
+

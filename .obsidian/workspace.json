@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "10757530ddf56fff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IAEA Training Course Series Review - CEFR Neutronics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,17 +109,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f1dd5c51dea5a12a",
+  "active": "10757530ddf56fff",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "IAEA Training Course Series Review - CEFR Neutronics.md",
     "OpenMC SDR Meetings.md",
     "TODO.md",
     "ANL Student Lifecycle Notes.md",
     "Untitled 1.md",
     "Madison Work Tasks.md",
     "OpenMC Development Tasks.md",
-    "conflict-files-obsidian-git.md",
     "Aurora-Cardinal Meeting Notes.md",
-    "Nate Tasks.md",
-    "Aurora-Cardinal Ulam Build Notes.md"
+    "Nate Tasks.md"
   ]
 }
