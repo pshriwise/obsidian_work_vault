@@ -41,4 +41,6 @@ Funding streams
 
 New ESCAPE program (part of FARSCAPE unser the STFC (Science and Technology Faciilty Council))
 
-  - send UK scientists off to different US DOE labs
+  - send UK scientists off to different US DOE labs for up to 6 mo.
+  - Andy is moving people off of STEP to this program to burn the money up quickly
+  - Helen might come over to either Madison or Chicago for 2-
