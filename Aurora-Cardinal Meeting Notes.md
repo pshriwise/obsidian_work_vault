@@ -37,4 +37,8 @@ Funding streams
   - Supplemental funding application for groups with existing funding from FES
   - FES is out of money for this FY
 
-### 2022-08-15
+### 2022-11-07
+
+New ESCAPE program (part of FARSCAPE unser the STFC (Science and Technology Faciilty Council))
+
+  - send UK scientists off to different US DOE labs

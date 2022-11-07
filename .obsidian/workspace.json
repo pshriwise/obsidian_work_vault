@@ -23,9 +23,11 @@
             "id": "a55e1250575062bc",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.0.3"
+                "file": "Aurora-Cardinal Meeting Notes.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -89,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IAEA Training Course Series Review - CEFR Neutronics.md",
+                "file": "Aurora-Cardinal Meeting Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
