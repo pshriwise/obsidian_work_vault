@@ -36,4 +36,6 @@ $$ \rho = \frac{k^{void}_{eff} - k^{orig}_{eff}}
 
 ### Notes on Code
 
-  - Setting the `openmc.Materials.cross_sections` attribute to a hard-coded path is going to cause a problem. I'd sug
+#### E71_CEFR_main_72assy_250C_CR_0700mm.py
+
+  - L467: Setting the `openmc.Materials.cross_sections` attribute to a hard-coded path is going to cause a problem. I'd suggest setting this attribute as if the cross sections are included in the same directory as the Python script and add a comment above that line on how to set the environment variable `OPENMC_CROSS_SECTIONS` in case the learner would prefer to do this instead.
