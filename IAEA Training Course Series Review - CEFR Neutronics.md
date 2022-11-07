@@ -33,3 +33,5 @@ $$ \rho = \frac{k^{void}_{eff} - k^{orig}_{eff}}
 - Densities and axial lengths account for expansion coefficient
 - Volumes are calculated analytically
 - Atomic and mass densities of fuel isotopes are used to calculate fuel composition at startup (2.97% enriched)
+
+### 
