@@ -36,3 +36,4 @@ $$ \rho = \frac{k^{void}_{eff} - k^{orig}_{eff}}
 
 ### Notes on Code
 
+  - Setting the `openmc.Materials.cross_sections` attribute to a hard-coded path is going to cause a problem. I'd sug
