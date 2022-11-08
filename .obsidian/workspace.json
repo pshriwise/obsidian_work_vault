@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cedf51077c27c73f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GPRT-ARRC Performance.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -91,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IAEA Training Course Series Review - CEFR Neutronics.md",
+                "file": "GPRT-ARRC Performance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,10 +121,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "10757530ddf56fff",
+  "active": "cedf51077c27c73f",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "IAEA Training Course Series Review - CEFR Neutronics.md",
+    "conflict-files-obsidian-git.md",
     "OpenMC SDR Meetings.md",
     "TODO.md",
     "ANL Student Lifecycle Notes.md",

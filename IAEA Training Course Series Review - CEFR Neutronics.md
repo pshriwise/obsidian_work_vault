@@ -1,3 +1,40 @@
+#iaea #openmc #education #training
+
+Notes on a review of a TCS document for the IAEA
+
+## CEFR: China Experimental Fast Reactor
+
+High-level design notes:
+ - 65 MWth (20MWe) pool-type sodium-cooled fast reactor
+ - UO2 fuel
+- Inlet temperature: 360 °C, outlet temp: 530 °C
+- sub-assemblies are fixed at the bottome w/ spacers at the top to accomodate expansion
+
+### Startup Tests
+- approach to critical by replacing mock fuel assemblies with real ones
+	- last real assembly is just enough to overcome geometric buckling
+- next control rod worth is measured
+	- for clean core, measured at 3 different locations, critical insertion depth is then extrapolated from a control rod worth curve
+
+### Control Rod Worth Tests
+For a given configuration of all control rods in the core, one is moved and the reactivity difference is measured
+
+$$ \rho = \frac{|k^{after}_{eff} - k^{before}_{eff}|}
+{k^{after}_{eff} \times k^{before}_{eff}} \times 10^{5} (pcm)$$
+
+### Sodium Void Coefficient Measurement
+ A single assembly is replaced with a vacuum-sealed assembly containing no sodium. The reactivity change is measured as
+
+$$ \rho = \frac{k^{void}_{eff} - k^{orig}_{eff}}
+{k^{void}_{eff} \times k^{orig}_{eff}} \times 10^{5} (pcm)$$
+## Neutronics Model Parameters
+- Temperatures are all at 250 °C
+- Material compositions calculated from natural abundances for isotopes in the nuclear dataset
+- Densities and axial lengths account for expansion coefficient
+- Volumes are calculated analytically
+- Atomic and mass densities of fuel isotopes are used to calculate fuel composition at startup (2.97% enriched)
+
+### Notes on Code
 
 #### E71_CEFR_main_72assy_250C_CR_070mm.py
 
@@ -6,8 +43,8 @@ Overall notes:
   - I had to change the temperature settings in OpenMC to get the model to load by adding:
 ```python
 settings_file.temperature = {'method': 'nearest',
-			 'multipole': True,
-			 'tolerance': 300}
+							 'multipole': True,
+							 'tolerance': 300}
 ```
    Was a custom data library being used to generate the report data?
    After making these changes I got a k-eff of 1.00021 +/- 112 pcm, which is statistically similar to the eigenvalue listed in the report.
@@ -43,5 +80,6 @@ c_FU_LGP3
   - L410-417: For the mixture materials that are created using one other material, I'd suggest using the `openmc.Material.clone` method and updating the name after.
   - L467: Setting the `openmc.Materials.cross_sections` attribute to a hard-coded path is going to cause a problem. I'd suggest setting this attribute as if the cross sections are included in the same directory as the Python script and add a comment above that line on how to set the environment variable `OPENMC_CROSS_SECTIONS` in case the learner would prefer to do this instead.
   - L1975: Setting a `rotation` attribute on the hex lattice won't have any affect on the lattice's orientation. This can be set for a cell, but not a lattice.
-  - L2824: It would be good to provide a comment on why these rotations are applied. Same in other areas of the code. If these rotations are being applied to correct the lattice orientation, I'd suggest simply changing the orientation when building the `HexLattice` object. (Docs [here](https://docs.openmc.org/en/stable/pythonapi/generated/openmc.HexLattice.html?highlight=HexLattice#openmc.HexLattice)). This would make the code run more efficiently.
+  - L2824: It would be good to provide a comment on why these rotations are applied. Same in other areas of the code. If these rotations are being applied to correct the lattice orientation, I'd suggest simply changing the orientation when building the `HexLattice` object. (Docs [here](https://docs.openmc.org/en/stable/pythonapi/generated/openmc.HexLattice.html?highlight=HexLattice#openmc.HexLattice)). This would likely make the code run more efficiently.
+  - 
   - L4240: I'd recomment placing the comment on the group structure at the end of this array above this line for clarity.
