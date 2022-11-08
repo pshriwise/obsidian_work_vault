@@ -54,7 +54,7 @@ cyl_CR_HCO_OU = openmc.ZCylinder(x0=0, y0=0, r=2.61076, name='cyl_CR_HCO_OU') # 
 ...
 cyl_CR_LSH = openmc.ZCylinder(x0=0, y0=0, r=2.61076, name='cyl_CR_LSH') # Lower shielding inner radius
 ```
-- For the pincell universes, it might be useful to look at the `openmc.model.`
+- 
 - Line comments:
   - L65: There are many commented lines in the section containing surface definitions. If they aren't being used and don't contain helpful information, I'd recommend that they be removed.
   - L410-417: For the mixture materials that are created using one other material, I'd suggest using the `openmc.Material.clone` method and updating the name after.
