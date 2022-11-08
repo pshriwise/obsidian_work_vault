@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GPRT-ARRC Performance.md",
+                "file": "GPRT-ARRC Performance Expectations.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GPRT-ARRC Performance.md",
+                "file": "GPRT-ARRC Performance Expectations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
