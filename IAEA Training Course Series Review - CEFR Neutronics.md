@@ -48,6 +48,13 @@ settings_file.temperature = {'method': 'nearest',
 ```
    Was a custom data library being used to generate the report data?
    - The flow of the file may be a little easier to follow if the surface definitions are closer to the cell definitions. I'd recommend placing the material definitions before the surfaces to remedy this.
+   - It looks like there are some redundant surfaces in the model. I would recommend either removing those in the code itself or by specifying `remove_surfs=True` when exporting the geometry to XML.
+```python
+cyl_CR_HCO_OU = openmc.ZCylinder(x0=0, y0=0, r=2.61076, name='cyl_CR_HCO_OU') # Head connector outer radius
+...
+cyl_CR_LSH = openmc.ZCylinder(x0=0, y0=0, r=2.61076, name='cyl_CR_LSH') # Lower shielding inner radius
+```
+- For the pincell universes, it might be useful to look at the `openmc.model.`
 - Line comments:
   - L65: There are many commented lines in the section containing surface definitions. If they aren't being used and don't contain helpful information, I'd recommend that they be removed.
   - L410-417: For the mixture materials that are created using one other material, I'd suggest using the `openmc.Material.clone` method and updating the name after.
