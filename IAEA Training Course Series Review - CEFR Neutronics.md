@@ -74,11 +74,11 @@ c_FU_LGP3
 ```
 - There are a lot of numbers that might be more clear as variable names. The pincell hex lattice pitch being one of those values.
 - The `HexLattice` universe definitions look really nice.
-- 
 
 - Line comments:
   - L65: There are many commented lines in the section containing surface definitions. If they aren't being used and don't contain helpful information, I'd recommend that they be removed.
   - L410-417: For the mixture materials that are created using one other material, I'd suggest using the `openmc.Material.clone` method and updating the name after.
   - L467: Setting the `openmc.Materials.cross_sections` attribute to a hard-coded path is going to cause a problem. I'd suggest setting this attribute as if the cross sections are included in the same directory as the Python script and add a comment above that line on how to set the environment variable `OPENMC_CROSS_SECTIONS` in case the learner would prefer to do this instead.
+  - L1975: Setting a `rotation` attribute on the hex lattice won't have any affect on the lattice's orientation. This can be set for a cell, but not a lattice.
+  - L2824: It would be good to provide a comment on why these rotations are applied. Same in other areas of the code
   - L4240: I'd recomment placing the comment on the group structure at the end of this array above this line for clarity.
-
