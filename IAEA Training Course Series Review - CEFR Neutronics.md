@@ -47,9 +47,10 @@ settings_file.temperature = {'method': 'nearest',
 							 'tolerance': 300}
 ```
    Was a custom data library being used to generate the report data?
+   - The flow of the file may be a little easier to follow if the surface definitions are closer to the cell definitions. I'd recommend placing the material definitions before the surfaces to remedy this.
 - Line comments:
   - L65: There are many commented lines in the section containing surface definitions. If they aren't being used and don't contain helpful information, I'd recommend that they be removed.
-  - L410-417: For the mixture materials that are a 
+  - L410-417: For the mixture materials that are created using one other material, I'd suggest using the `openmc.Material.clone` method and updating the name after.
   - L467: Setting the `openmc.Materials.cross_sections` attribute to a hard-coded path is going to cause a problem. I'd suggest setting this attribute as if the cross sections are included in the same directory as the Python script and add a comment above that line on how to set the environment variable `OPENMC_CROSS_SECTIONS` in case the learner would prefer to do this instead.
   - L4240: I'd recomment placing the comment on the group structure at the end of this array above this line for clarity.
 
