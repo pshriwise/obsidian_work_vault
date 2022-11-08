@@ -47,6 +47,7 @@ settings_file.temperature = {'method': 'nearest',
 							 'tolerance': 300}
 ```
    Was a custom data library being used to generate the report data?
+   After making these changes I got a k-eff of 1.00021 +/- 112 pcm, which is within
    - The flow of the file may be a little easier to follow if the surface definitions are closer to the cell definitions. I'd recommend placing the material definitions before the surfaces to remedy this.
    - It looks like there are some redundant surfaces in the model. I would recommend either removing those in the code itself or by specifying `remove_surfs=True` when exporting the geometry to XML.
 ```python
@@ -54,7 +55,24 @@ cyl_CR_HCO_OU = openmc.ZCylinder(x0=0, y0=0, r=2.61076, name='cyl_CR_HCO_OU') # 
 ...
 cyl_CR_LSH = openmc.ZCylinder(x0=0, y0=0, r=2.61076, name='cyl_CR_LSH') # Lower shielding inner radius
 ```
-- 
+- Just to shorten up some of the pincell definitions. The lines
+```python
+p_FU_LGP = openmc.Universe()
+p_FU_LGP.add_cells([
+c_FU_LGP1,
+c_FU_LGP2,
+c_FU_LGP3
+])
+```
+could become
+```python
+p_FU_LGP = openmc.Universe(cells=[
+c_FU_LGP1,
+c_FU_LGP2,
+c_FU_LGP3
+])
+```
+- There are a lot of numbers that might be more clear as variable names. The pincell hex latti
 - Line comments:
   - L65: There are many commented lines in the section containing surface definitions. If they aren't being used and don't contain helpful information, I'd recommend that they be removed.
   - L410-417: For the mixture materials that are created using one other material, I'd suggest using the `openmc.Material.clone` method and updating the name after.
