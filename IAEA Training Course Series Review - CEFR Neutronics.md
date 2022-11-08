@@ -47,7 +47,7 @@ settings_file.temperature = {'method': 'nearest',
 							 'tolerance': 300}
 ```
    Was a custom data library being used to generate the report data?
-   After making these changes I got a k-eff of 1.00021 +/- 112 pcm, which is within
+   After making these changes I got a k-eff of 1.00021 +/- 112 pcm, which is statistically similar to the eigenvalue listed in the report.
    - The flow of the file may be a little easier to follow if the surface definitions are closer to the cell definitions. I'd recommend placing the material definitions before the surfaces to remedy this.
    - It looks like there are some redundant surfaces in the model. I would recommend either removing those in the code itself or by specifying `remove_surfs=True` when exporting the geometry to XML.
 ```python
