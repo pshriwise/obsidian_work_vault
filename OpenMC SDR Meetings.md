@@ -150,3 +150,9 @@ OpenMC Dev Meeting 2022
   - Cleanup of Statepoint object -- proxy
 	  - Only claims file handle when reading data, checks timestamp hash for validity of statepoint file
 	  - What to do about `summary.h5`?
+
+## 2022-11-08
+
+  - Topics for next time
+	  - MHD LiPb transients in ITER-like devices or higher B fields (HTSC?)
+	  - Magnet quenching - feedback effects and parametric studies
