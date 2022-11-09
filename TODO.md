@@ -33,7 +33,7 @@
 		- [x] Add outlines, clipping
 		- [x] Particle tracks
 - [x] Performance appraisals
-	- [x] Kalin 
+	- [x] Kalin
 	- [x] Tamra
 	- [x] Mine
 		- [x] Update PANDA
@@ -50,3 +50,21 @@
 
 ### Home
   - [x] Sign up for goaltimate
+  - Copenhagen DAGMC debug
+  - Catbird
+	  - rename project :(
+	  - class differentiation
+	  - class hierarchy
+	  - class output
+  - Cardinal-Aurora
+	  - add reflector to DAGMC model and reorg repo
+	  - fix materials for Cardinal model
+  - OpenMC Unstructured Mesh as Geometry
+	  - Finalize implementation
+	  - Start work on verification
+		  - Update MCNP source
+		  - Add equivalent `fmesh` tally to the MCNP model
+  - [ ] Update MGXS temperature read
+  - [ ] Fix libMesh uninitialized filename error and add test
+  - [ ] Add shaping capability for tallies with mesh filters
+  - [ ]
