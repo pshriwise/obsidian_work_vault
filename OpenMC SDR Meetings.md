@@ -156,3 +156,8 @@ OpenMC Dev Meeting 2022
   - Topics for next time
 	  - MHD LiPb transients in ITER-like devices or higher B fields (HTSC?)
 	  - Magnet quenching - feedback effects and parametric studies
+
+## 2022-11-16
+
+  - Discussed milestones -- so far so good. Things need polishing, but we're on track
+  - C/C++ testing platform.. Need to pick a platform and have students build out tests for 
