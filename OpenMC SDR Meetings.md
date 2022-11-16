@@ -160,4 +160,9 @@ OpenMC Dev Meeting 2022
 ## 2022-11-16
 
   - Discussed milestones -- so far so good. Things need polishing, but we're on track
-  - C/C++ testing platform.. Need to pick a platform and have students build out tests for 
+  - C/C++ testing platform. As we add more capabilities to the interface, we should probably do more unit testing of those interfaces. Need to pick a platform (or build on cpp_driver?) and have students build out tests for these interfaces.
+## 2022-11-30
+
+  - Publications
+	  - ITER E-lite publication
+	  - OpenMC Fusion Neutronics paper -- current status?
