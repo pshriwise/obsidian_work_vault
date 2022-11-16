@@ -149,5 +149,9 @@ Some issues with this approach:
   - simple interpolation cases now have more indirection
   - the interpolation process is more opaque
 
-### Small changes
-- [ ] [Flip logic for efficiency here](https://github.com/openmc-dev/openmc/blob/c5d47a0918326239c15900a2b679e1d5481d9d6a/src/bremsstrahlung.cpp#L80). Will change random number stream.
+## OpenMC Weight Window Generation Tasks
+
+
+- [ ] Separate PR for filter class to change implemetation of `type_str`
+- [ ] Separate PR for tally class convenience functions
+- [ ] 
