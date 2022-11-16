@@ -1,7 +1,7 @@
 
  #nse #pyarc
  - [ ] PyGriffin material/xs mapping to mesh (w/ `mcdump` & `lxml`)
- - [ ] PyGriffin duplicate xs specification issue
- - [ ] PyARC 
- - [ ] Review Shikar's PR
- - [ ] Review Kalin's PR
+ - [ ] Run `pyarc_run` and `tutorials`:
+	 - [ ] Collect timings on the CI machine
+	 - [ ] Propose categories for tests we run as part of development and part of release perparation
+ - [ ] Test refactor
