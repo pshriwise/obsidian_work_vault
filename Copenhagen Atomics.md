@@ -16,4 +16,3 @@ Notes on CA MSR Operators:
  - separate model changes from operator
  - change `search_for_keff` to reuturn a new `openmc.Model`?
  - name change `Msr` to `MSR`
- - 
