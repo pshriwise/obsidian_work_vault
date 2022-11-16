@@ -14,4 +14,6 @@ Notes on CA MSR Operators:
 
  - pass material/cells by objects
  - separate model changes from operator
- - change `search_for_keff` to reutrn 
+ - change `search_for_keff` to reuturn a new `openmc.Model`?
+ - name change `Msr` to `MSR`
+ - 
