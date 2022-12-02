@@ -9,9 +9,10 @@ Minimum capabilities
 - Radiation Transport (Done)
 	- Weird proposal environment, needed own code to win funding
 - TH/CFD (Mostly Done, exists)
+- MHD dynamics (NekRS?)
 - Tritium transport ()
 - Structural (scratch)
-- Systems (simple enough)
+- Systems (simple enough to implement on our own)
 
 Implementation Questions
 - Starting from scratch?
