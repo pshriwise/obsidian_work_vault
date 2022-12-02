@@ -1,16 +1,17 @@
 Minimum capabilities
-- Equilibrium
+- Equilibrium (scratch)
 	- Historical/cultural issues
 	- Paternalism
 	- Shift to leadership over turf protection
-- Plasma Transport
+- Plasma Transport ()
 	- GX-Trinity
-- Edge?
-- Radiation Transport
+- RF/Edge? (Mostly there)
+- Radiation Transport (Done)
 	- Weird proposal environment, needed own code to win funding
-- CFD
-	- 
-- Systems
+- TH/CFD (Mostly Done, exists)
+- Tritium transport ()
+- Structural (scratch)
+- Systems (simple enough)
 
 Implementation Questions
 - Starting from scratch?
@@ -20,4 +21,4 @@ Implementation Questions
 - Validation
 
 
-Anecdotes on why a new perspec
+Anecdotes on why a new perspective is valuable
