@@ -1,5 +1,5 @@
 
   - [ ] JNE systems article
   - [ ] Henderson CRAM paper
-  - [ ] Sustainability proposal
+  - [x] Sustainability proposal
   - [ ]  Paul W's Thesis
