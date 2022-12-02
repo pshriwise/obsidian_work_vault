@@ -16,9 +16,12 @@ Minimum capabilities
 Implementation Questions
 - Starting from scratch?
 - Select a set of base (already-open?) tools to start from
-- 
-
 - Validation
 
 
 Anecdotes on why a new perspective is valuable
+
+ASCR Partner: MFEM team
+
+Timeframe
+ - 
