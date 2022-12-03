@@ -12,6 +12,7 @@ Tasks
 - [ ] Integrate colors as we go to avoid dynamic memory allocation?
 - [ ] Common need for a lightweight particle class used to only traverse the geometry for both random ray and this
 - [ ] could render with random ray with a "pixel quadrature"?
+- [ ] Apply wireframe to pixel slice plots too?
 
 # High-level description of the alg
 
@@ -63,7 +64,11 @@ After eixting the `intersection_found` loop, a position is created to hold the c
 
 ### Wireframe coloring
 
-Wireframes are added to the image by checking for changes in domain IDs. This is done for each horizonal row of pixels first. Then, when all threads are finished processing their vertical task, the vertical comparison is performed. (_I think this should be parallelized separately to simply_)
+Wireframes are added to the image by checking for changes in domain IDs. This is done for each horizonal row of pixels first. Then, when all threads are finished processing their vertical task, the vertical comparison is performed. (_I think this should be parallelized separately to simplify things_).
+
+_TrackSegments are compared using `TrackStackEquivalent`_
+
+
 
 
 
