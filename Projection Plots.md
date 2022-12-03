@@ -9,6 +9,9 @@ Tasks
 - [ ] Cell/material masking
 - [ ] Property-based images
 - [ ] Proper path tracing with shadows, etc. by using surface normals
+- [ ] Integrate colors as we go to avoid dynamic memory allocation?
+- [ ] Common need for a lightweight particle class used to only traverse the geometry for both random ray and this
+- [ ] could render with random ray with a "pixel quadrature"?
 
 # High-level description of the alg
 
@@ -55,7 +58,8 @@ The `intersection_found` loop continues until an intersection is not found (_eit
 
 ### Pixel coloring
 
-After eixting the `intersection_found` loop, a position is created to hold the current color (_We're using a position here, but we should probably alias it for clarityRGBColorf _. For each segment of the current pixel, the color is set by mixing 
+After eixting the `intersection_found` loop, a position is created to hold the current color (_We're using a position here, but we should probably alias it for clarity -- RGBColorf or something_). For each segment of the current pixel, the color is set by mixing the current color (_initialized as background white_) with the next track segment for the pixel based on the exponential of the length times the color for that domain ID.
+
 
 
 
