@@ -31,6 +31,8 @@ As in the other image generation algorithms, a fake particle is created to to th
 
 For each pixel, set the direction and traverse the geometry. It begins by assuming an intersection is found.
 
+##### `intersection_found` loop
+
 In the case that an intersection is found (the equivalent of a surface crossing in transport), a search for the particle's containing cell is performed. If a containing cell is found, the `inside_cell` branch is selected.
 
 ##### inside_cell
@@ -51,7 +53,9 @@ Back to the track intersection loop....
 
 The `intersection_found` loop continues until an intersection is not found (_either in the first step b/c we miss the model entirely or after moving through the whole model).
 
+### Pixel coloring
 
+After eixting the `intersection_found` loop, a position is created to hold the current color (_We're using a position here, but we should probably alias it for clarityRGBColorf _. For each segment of the current pixel, the color is set by mixing 
 
 
 
