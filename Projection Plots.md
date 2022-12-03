@@ -66,7 +66,7 @@ After eixting the `intersection_found` loop, a position is created to hold the c
 
 Wireframes are added to the image by checking for changes in domain IDs. This is done for each horizonal row of pixels first. Then, when all threads are finished processing their vertical task, the vertical comparison is performed. (_I think this should be parallelized separately to simplify things_).
 
-_TrackSegments are compared using `TrackStackEquivalent`_
+_`wireframe_initial` is an allocated data structure. Why not just use the image data?_
 
 
 
