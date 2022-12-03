@@ -33,6 +33,16 @@ In the case that an intersection is found (the equivalent of a surface crossing 
 
 Is this is the first occurrance of the particle being inside a cell, then a new, zero-length `TrackSegment` is created with the surface crossing set to `-1`. (_This should probably happen befor the event loop).
 
-Then a `distance_to_boundary` call is performed for the particle and a new `TrackSegment` is added to the image row. The particle is advanced to the next surface on all coordinate levels. (_We sould create a subroutine for that_). Other particle parameters are updated at the surface crossing ( )
+Then a `distance_to_boundary` call is performed for the particle and a new `TrackSegment` is added to the image row. The particle is advanced to the next surface on all coordinate levels. (_We sould create a subroutine for that_). Other particle parameters are updated at the surface crossing (`surface`, `n_coord_last`, `n_coord`). A lattice crossing is performed if needed.
+
+#### ! inside_cell
+
+If the particle is not inside of a cell, a subroutine `advance_to_boundary_from_void` is called. (_This is likely the first branch to be traversed, so I'm thinking we should reverse the logic here for readability_).
+
+###### `advance_to_boundary_from_void`
+
+Here, we search for the minimum distance to intersection with any cell in the root universe. (_This is a little dicey because we're typically expecting that ray traces occur from inside a cell, so some of the logic may not be correct. I saw this in the "ray tracing in one weekend" renderer_). 
+
+
 
 
