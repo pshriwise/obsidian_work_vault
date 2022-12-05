@@ -63,5 +63,5 @@ Cardinal build status updates
 		  - Unstructured mesh?
 		  - Making it general could be difficult
 		  - Might make collaboration with SHIFT easier if they want to get involved with MOOSE work
-	  - What aspects of 
+	  - What aspects of Cardinal/Aurora are separatble from mapping/tally transfers?
 	  - OpenMC perspective: libMesh is the pivot point
