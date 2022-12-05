@@ -69,4 +69,8 @@ Cardinal build status updates
 	  - Alex Blair
 	  - Andy
 	  - Helen
-	  - 
+  - Plan:
+	  - Aurora into Cardinal?
+	  - UM transport in Cardinal
+	  - Win R&D 100
+	  - Move combined OpenMC 
