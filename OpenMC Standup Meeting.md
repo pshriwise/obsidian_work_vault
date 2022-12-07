@@ -41,7 +41,6 @@ TODO:
 
 Talk over CA MSR code?
 
-### 2022-11-30
+### 2022-12-7
 
-PA
- - 
+  - ALARA parallel
