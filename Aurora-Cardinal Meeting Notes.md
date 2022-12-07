@@ -74,3 +74,8 @@ Cardinal build status updates
 	  - UM transport in Cardinal
 	  - Win R&D 100
 	  - Move combined OpenMC 
+
+
+### Aurora Build Script Notes
+
+  - Need to ensure the `packaging` Python package is installed
