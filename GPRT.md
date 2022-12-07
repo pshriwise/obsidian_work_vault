@@ -1,7 +1,8 @@
 #ray-tracing 
 # GPRT Notes
 
-
+### Tasks
+- [ ] Transfer RTIOW to GPRT over the holiday
 
 ### Meeting w/ HACC team 2022-08-15
   - KNN / range for clustering algs
