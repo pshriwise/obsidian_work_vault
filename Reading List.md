@@ -5,6 +5,7 @@
   - [ ]  Paul W's Thesis
   - [ ] CPS seminar (https://events.cels.anl.gov/event/209/)
 	  - [ ] Reason sims diverge w/ large coarse solvers: Physics is represented well enough on small time/domain scales by coarse solver, but if the chunks are too large the LOM physics start to break down and give the wrong answer
-	  - [ ] There seems to be a need for fast scoping studies 
+	  - [ ] There seems to be a need for fast scoping studies to determine $N_{fine}$ and $N_{coarse}$
+	  - [ ] 
   - [ ] William Dawn's Thesis (https://mfem.org/pdf/workshop21/13_WilliamDawn_Neutron_Transport.pdf)
   - [ ] Quantum blog post (https://scottaaronson.blog/?p=208)
