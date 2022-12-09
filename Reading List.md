@@ -9,6 +9,10 @@
 	  - [ ] ELMs: Creating chunks based on repeated processes wasn't as effective as selecting chunks based on selecting chunks based on individual physical phenomenon -- granularity matters a lot here! This mostly has to do with number of iterations req'd to converge and not as much with introducing bias?
 	  - [ ] Factors to consider when selecting time chunks
 		  - [ ] Time-dependence of simulated physics (immutable)
-		  - [ ] Accuracy of coarse solver 
+		  - [ ] Accuracy of coarse solver
+		  - [ ] Coarse solver that's accurate in time more important than in space?
+		  - [ ] Can be quantified by exploring how the stability region is affected by applying the parareal algorithm
+		  - [ ] 
+
   - [ ] William Dawn's Thesis (https://mfem.org/pdf/workshop21/13_WilliamDawn_Neutron_Transport.pdf)
   - [ ] Quantum blog post (https://scottaaronson.blog/?p=208)
