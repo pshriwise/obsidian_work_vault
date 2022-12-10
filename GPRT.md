@@ -2,7 +2,20 @@
 # GPRT Notes
 
 ### Tasks
-- [ ] Transfer RTIOW to GPRT over the holiday
+- [ ] Transfer RTOW to GPRT over the holiday
+- [ ] Samples PR
+	- [ ] S00
+	- [ ] S01
+	- [ ] S02
+	- [ ] S03
+	- [ ] S04
+	- [ ] S05
+	- [ ] S06
+	- [ ] S07
+	- [ ] S08
+	- [ ] S09
+	- [ ] S10
+	- [ ] Build and test all samples locally on `dawn`
 
 ### Meeting w/ HACC team 2022-08-15
   - KNN / range for clustering algs
