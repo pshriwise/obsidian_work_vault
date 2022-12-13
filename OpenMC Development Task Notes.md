@@ -4,6 +4,8 @@
 - [ ] Refactor interpolation code
 - [x] Add remaining interpolation schemes to `EnergyFunctionFilter`
 - [ ] Add unstructured mesh filename test based on the `cpp_driver` test
+- [ ] Add paramak example to `openmc-notebooks`
+- [ ] Add weight window generation examples to `openmc-notebooks`
 
 ### `EnergyFunctionFiler` Interpolation
 
