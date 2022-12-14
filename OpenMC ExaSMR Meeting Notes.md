@@ -26,7 +26,8 @@ Next steps:
  - For sunspot access (pre-aurora cluster): Haritha Siddabathuni Som (haritha@anl.gov)
  - `sunspot` module system is similar to JLSE for changing between compilers
  - `sunspot` limits how many resources are available on each node, which is why performance results there are a little slower than expected for a fully-enabled aurora node
- - `sunspot` there are also some issues with pinning MPI procs to certain cores/regions of the 
+ - `sunspot` there are also some issues with pinning MPI procs to certain cores/regions of the node
  - Performance:
-	 - 750 M particles/s (down from 850 p/s)
-	 - 
+	 - 750k pps (down from an expected 850k pps -- adjusted for the limited resources available on these nodes)
+	 - seems to be some small change that's caused this
+	 - tried rolling back, but there's been changes in the way we handle sorting on Intel
