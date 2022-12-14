@@ -22,4 +22,11 @@ Next steps:
 
 ### 2022-12-14
 
- - For `sunspot` access (pre-aurora cluster): Haritha Siddabathuni Som (haritha@anl.gov)
+#### `sunspot`: a pre-aurora cluster at ANL
+ - For sunspot access (pre-aurora cluster): Haritha Siddabathuni Som (haritha@anl.gov)
+ - `sunspot` module system is similar to JLSE for changing between compilers
+ - `sunspot` limits how many resources are available on each node, which is why performance results there are a little slower than expected for a fully-enabled aurora node
+ - `sunspot` there are also some issues with pinning MPI procs to certain cores/regions of the 
+ - Performance:
+	 - 750 M particles/s (down from 850 p/s)
+	 - 
