@@ -19,3 +19,7 @@ Next steps:
   - FY problems should be coupled
   - need to compile ENRICO w/ NekRS
   - mi100 runs have been broken for some time now
+
+### 2022-12-14
+
+ - For `sunspot` access (pre-aurora cluster): Haritha Siddabathuni Som (haritha@anl.gov)
